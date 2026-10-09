@@ -1,0 +1,28 @@
+[
+  {
+    "id": "hero-courtyard",
+    "label": "HERO / courtyard",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/HERO_-_Blender_Open_Movie-full_movie.webm",
+    "source_sha256": "986d84723580760cb1dfa73fbca602a0715c491aee9b6f203523514dcf2c9ce3",
+    "first_frame": 767,
+    "frame_count": 192,
+    "source_fps": 23.976023976023978,
+    "source_start_seconds": 31.990291666666664,
+    "duration_seconds": 8.008,
+    "method": "geometry-only",
+    "elapsed_seconds": 11.90700000000652
+  },
+  {
+    "id": "hero-action",
+    "label": "HERO / flight",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/HERO_-_Blender_Open_Movie-full_movie.webm",
+    "source_sha256": "986d84723580760cb1dfa73fbca602a0715c491aee9b6f203523514dcf2c9ce3",
+    "first_frame": 1726,
+    "frame_count": 192,
+    "source_fps": 23.976023976023978,
+    "source_start_seconds": 71.98858333333332,
+    "duration_seconds": 8.008,
+    "method": "geometry-only",
+    "elapsed_seconds": 18.31200000003446
+  }
+]
