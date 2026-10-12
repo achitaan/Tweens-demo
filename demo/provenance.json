@@ -9,8 +9,443 @@
     "source_fps": 23.976023976023978,
     "source_start_seconds": 31.990291666666664,
     "duration_seconds": 8.008,
-    "method": "geometry-only",
-    "elapsed_seconds": 10.593999999997322
+    "method": "environment",
+    "elapsed_seconds": 21.639999999999418,
+    "model": {
+      "status": "completed",
+      "config": {
+        "max_frames": 12,
+        "inference_size": 280,
+        "max_seconds": 900,
+        "artifact_limit_bytes": 1073741824,
+        "weight_limit_bytes": 1073741824,
+        "max_gpu_bytes": 4294967296,
+        "device": "auto"
+      },
+      "runtime": {
+        "python": "3.10.4",
+        "platform": "Windows-10-10.0.26300-SP0",
+        "numpy": "1.25.1",
+        "opencv-python": "4.10.0.84",
+        "torch": "2.3.1+cu121",
+        "torchvision": "0.18.1+cu121",
+        "transformers": "4.44.2",
+        "safetensors": "0.4.5",
+        "Pillow": "10.4.0"
+      },
+      "frames": [
+        {
+          "id": "hero-courtyard:frame:0:run:hero-courtyard-v2",
+          "timestamp_us": 0,
+          "shot_id": "hero-courtyard:shot:0:run:hero-courtyard-v2",
+          "image_sha256": "ec50a4c54298b5adcadb64d8972c129ae924ce7270cccfd0357c51b8a09d99b5",
+          "image_bytes": 54885,
+          "status": "completed",
+          "array_shape": [
+            268,
+            640
+          ],
+          "artifact": "depth/fb01702fb8fa5ef1da7f8e78.npy",
+          "artifact_sha256": "0424e6ff49049a7ffd9d46036229dfa055e6418c80f2e4510fcd1d3d72f3db0f",
+          "elapsed_seconds": 0.7029999999940628
+        },
+        {
+          "id": "hero-courtyard:frame:4:run:hero-courtyard-v2",
+          "timestamp_us": 167000,
+          "shot_id": "hero-courtyard:shot:0:run:hero-courtyard-v2",
+          "image_sha256": "598046578f0268dd95ea6003f74f84e652bddb2f2e00b9184b160f11f7fcb225",
+          "image_bytes": 56654,
+          "status": "completed",
+          "array_shape": [
+            268,
+            640
+          ],
+          "artifact": "depth/d37d84020f6eaca867ef0bbb.npy",
+          "artifact_sha256": "010e575095d670a6e65997438e26441f615b58ab439d6c9bb4a22ff3815d17f1",
+          "elapsed_seconds": 0.046000000002095476
+        },
+        {
+          "id": "hero-courtyard:frame:52:run:hero-courtyard-v2",
+          "timestamp_us": 2169000,
+          "shot_id": "hero-courtyard:shot:0:run:hero-courtyard-v2",
+          "image_sha256": "726964a45370883f7747a0ef97b6a4b42350a3a613b3e52931599ab1e3647543",
+          "image_bytes": 60375,
+          "status": "completed",
+          "array_shape": [
+            268,
+            640
+          ],
+          "artifact": "depth/05332943825993712830f3f8.npy",
+          "artifact_sha256": "30fec72ac2d29d02410c5c683e269ef9348b43172f9190a0c3f43ded5a141870",
+          "elapsed_seconds": 0.046999999991385266
+        },
+        {
+          "id": "hero-courtyard:frame:60:run:hero-courtyard-v2",
+          "timestamp_us": 2503000,
+          "shot_id": "hero-courtyard:shot:0:run:hero-courtyard-v2",
+          "image_sha256": "129e6f5c7c54da7c1fd437a2ffb9204e7b8c7ead590e55ed315c8d84606c366f",
+          "image_bytes": 60176,
+          "status": "completed",
+          "array_shape": [
+            268,
+            640
+          ],
+          "artifact": "depth/4cabaa36a925e6c3a9add367.npy",
+          "artifact_sha256": "f9c14f5b88764ab6a4aaf37bd0c9732a6429083cf3f2bc373b8a94b70b889593",
+          "elapsed_seconds": 0.06300000000919681
+        },
+        {
+          "id": "hero-courtyard:frame:64:run:hero-courtyard-v2",
+          "timestamp_us": 2669000,
+          "shot_id": "hero-courtyard:shot:1:run:hero-courtyard-v2",
+          "image_sha256": "595caeafb898c8be2a493ea99d94428c396e990a94195e921c46e6ed8fef0204",
+          "image_bytes": 40564,
+          "status": "completed",
+          "array_shape": [
+            268,
+            640
+          ],
+          "artifact": "depth/81237100dcabf6e9a878da51.npy",
+          "artifact_sha256": "a49bcd7567483325a4127662026f8c4115d42ae06aa62a5a3a6935a23e6c5fcc",
+          "elapsed_seconds": 0.06199999999080319
+        },
+        {
+          "id": "hero-courtyard:frame:76:run:hero-courtyard-v2",
+          "timestamp_us": 3170000,
+          "shot_id": "hero-courtyard:shot:1:run:hero-courtyard-v2",
+          "image_sha256": "2be1f690eeb7eb7b3de373f1a79a281a9bb57539d4260fef589e15caa72093d5",
+          "image_bytes": 41158,
+          "status": "completed",
+          "array_shape": [
+            268,
+            640
+          ],
+          "artifact": "depth/582fbca9cc15c366c49ad98c.npy",
+          "artifact_sha256": "4d24c1ca1797cd48c8614d9f4dae935c0cd030f8d0193f35b83540205958e095",
+          "elapsed_seconds": 0.06300000000919681
+        },
+        {
+          "id": "hero-courtyard:frame:92:run:hero-courtyard-v2",
+          "timestamp_us": 3837000,
+          "shot_id": "hero-courtyard:shot:1:run:hero-courtyard-v2",
+          "image_sha256": "53a3c2ed9f312b3d515f26961f1d886fc1bea95b5e86058bb3e59dea80cd640a",
+          "image_bytes": 41923,
+          "status": "completed",
+          "array_shape": [
+            268,
+            640
+          ],
+          "artifact": "depth/07760cafc1ef94bd8cb603b4.npy",
+          "artifact_sha256": "87e15aa76b07b7c54bd65acf2b198f214b42d8d2e153413b22571c76e26f8810",
+          "elapsed_seconds": 0.0629999999946449
+        },
+        {
+          "id": "hero-courtyard:frame:100:run:hero-courtyard-v2",
+          "timestamp_us": 4171000,
+          "shot_id": "hero-courtyard:shot:1:run:hero-courtyard-v2",
+          "image_sha256": "6a4d7ab904b29f138a84eaae4f5adba1c026d5ae5bc6011a7af71061543c8f21",
+          "image_bytes": 41604,
+          "status": "completed",
+          "array_shape": [
+            268,
+            640
+          ],
+          "artifact": "depth/006c1ba0b2dbb0128b3fad34.npy",
+          "artifact_sha256": "d0107bf8e50fdaba9f7aeb359e3bc9d72b1e1012c0bd7201ea038f1bf97c8332",
+          "elapsed_seconds": 0.09399999999732245
+        },
+        {
+          "id": "hero-courtyard:frame:106:run:hero-courtyard-v2",
+          "timestamp_us": 4421000,
+          "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v2",
+          "image_sha256": "2cc35bffddcaa89ea5a62c905fbfb376d3b42fa97326af1c08a40b36e597aeeb",
+          "image_bytes": 19672,
+          "status": "completed",
+          "array_shape": [
+            268,
+            640
+          ],
+          "artifact": "depth/8d02365f24ddf7fe12822b24.npy",
+          "artifact_sha256": "968854e96e167d0064bcc0c1f4b04fc336958e1077ee04a4efba016de16bd19e",
+          "elapsed_seconds": 0.07800000000861473
+        },
+        {
+          "id": "hero-courtyard:frame:109:run:hero-courtyard-v2",
+          "timestamp_us": 4546000,
+          "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v2",
+          "image_sha256": "25b5d070059283f8c99043762c4b8ca10a8296be00cba28ba776b4b52f495523",
+          "image_bytes": 19744,
+          "status": "completed",
+          "array_shape": [
+            268,
+            640
+          ],
+          "artifact": "depth/ff87ecfb0c529842ea528386.npy",
+          "artifact_sha256": "644d1aa9a224fd8212a400f5434cbba14813594c7155ef99c074223cd22fa56a",
+          "elapsed_seconds": 0.07799999999406282
+        },
+        {
+          "id": "hero-courtyard:frame:111:run:hero-courtyard-v2",
+          "timestamp_us": 4630000,
+          "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v2",
+          "image_sha256": "ac5e2633d6a3c7f146fd8c1585587fa3019d7f039e1bcea3708614dd9691d022",
+          "image_bytes": 19064,
+          "status": "completed",
+          "array_shape": [
+            268,
+            640
+          ],
+          "artifact": "depth/ec409500831cef9280f2ff95.npy",
+          "artifact_sha256": "8dadb24f52fc2e08cc48ca99a27ca65a3983e96970002a3bc298579637ddf78c",
+          "elapsed_seconds": 0.10899999999674037
+        },
+        {
+          "id": "hero-courtyard:frame:168:run:hero-courtyard-v2",
+          "timestamp_us": 7007000,
+          "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v2",
+          "image_sha256": "00d7dcc5fe872fb8518ba98ce7b0b6c2afa9f8237e5520e3e9669d9568008f0c",
+          "image_bytes": 22215,
+          "status": "completed",
+          "array_shape": [
+            268,
+            640
+          ],
+          "artifact": "depth/b1775586505664fed27c4de8.npy",
+          "artifact_sha256": "74fc4f6af99d87c1d62dff858682bbd6c86f633732233bda5e93f73e91781207",
+          "elapsed_seconds": 0.11000000000058208
+        }
+      ],
+      "failures": [],
+      "source_hash": "c16983d32b6d592416a53bb0f1659647b180405cec8923d2c45f737abbcfef74",
+      "metric_units": false,
+      "convention": "higher-is-farther; per-frame ordinal relative depth in [0,1]",
+      "model": {
+        "id": "depth-anything/Depth-Anything-V2-Small-hf",
+        "revision": "5426e4f0f36572d16453bbda7a8389317b1bef99",
+        "source": "https://huggingface.co/depth-anything/Depth-Anything-V2-Small-hf/tree/5426e4f0f36572d16453bbda7a8389317b1bef99",
+        "license": "Apache-2.0",
+        "file_sha256": {
+          "config.json": "c56698d3643dde1f83ea2212759e6b31a22b8f827246a36dd007ee8a22b3ff75",
+          "preprocessor_config.json": "d41175c0d889477ca8fc67191e540faef14baf6275157b3fdecf78469e6bbf84",
+          "model.safetensors": "3152477ce0d8d6978d76b995120de97cb5b928701fd0f817769f59e249a16b70",
+          "README.md": "319566441daaac0c5ed83e75a8fd19bae0863f3275e23f147c06fe0906edf6fb"
+        },
+        "bytes": 99179785
+      },
+      "limitations": [
+        "Independent per-frame normalization loses cross-frame scale.",
+        "Anime depth and semantic object shape are unvalidated hypotheses.",
+        "No training, tuning, paid fallback or network access occurs here.",
+        "Cancellation and time ceilings are observed between noninterruptible model calls."
+      ],
+      "selected_frame_ids": [
+        "hero-courtyard:frame:0:run:hero-courtyard-v2",
+        "hero-courtyard:frame:4:run:hero-courtyard-v2",
+        "hero-courtyard:frame:52:run:hero-courtyard-v2",
+        "hero-courtyard:frame:60:run:hero-courtyard-v2",
+        "hero-courtyard:frame:64:run:hero-courtyard-v2",
+        "hero-courtyard:frame:76:run:hero-courtyard-v2",
+        "hero-courtyard:frame:92:run:hero-courtyard-v2",
+        "hero-courtyard:frame:100:run:hero-courtyard-v2",
+        "hero-courtyard:frame:106:run:hero-courtyard-v2",
+        "hero-courtyard:frame:109:run:hero-courtyard-v2",
+        "hero-courtyard:frame:111:run:hero-courtyard-v2",
+        "hero-courtyard:frame:168:run:hero-courtyard-v2"
+      ],
+      "model_runtime": {
+        "device": "cuda",
+        "gpu_name": "NVIDIA GeForce GTX 1660 SUPER",
+        "cuda_version": "12.1",
+        "precision": "float32",
+        "batch_size": 1,
+        "peak_gpu_bytes": 121416192,
+        "last_model_input_shape": [
+          112,
+          280
+        ]
+      },
+      "elapsed_seconds": 9.968999999997322,
+      "generated_bytes_at_end": 11314170
+    },
+    "geometry": {
+      "environments": [
+        {
+          "shot_id": "hero-courtyard:shot:0:run:hero-courtyard-v2",
+          "source_id": "hero-courtyard:frame:0:run:hero-courtyard-v2",
+          "timestamp_us": 0,
+          "valid_depth_pixels": 171520,
+          "invalid_depth_pixels": 0,
+          "sampled_vertices": 980,
+          "vertex_count": 972,
+          "triangle_count": 1778,
+          "rejected_cells": 23,
+          "source_reprojection_max_px": 5.859285502108464e-14,
+          "plane_fits": [],
+          "ransac_seed": 0,
+          "ransac_iterations_per_tile": 48,
+          "storage_quantization_decimals": 6
+        },
+        {
+          "shot_id": "hero-courtyard:shot:1:run:hero-courtyard-v2",
+          "source_id": "hero-courtyard:frame:64:run:hero-courtyard-v2",
+          "timestamp_us": 2669000,
+          "valid_depth_pixels": 171520,
+          "invalid_depth_pixels": 0,
+          "sampled_vertices": 980,
+          "vertex_count": 979,
+          "triangle_count": 1822,
+          "rejected_cells": 1,
+          "source_reprojection_max_px": 5.684341886080802e-14,
+          "plane_fits": [
+            {
+              "primitive_id": "environment-plane-bd2a29699b144707",
+              "sample_count": 63,
+              "tile_inlier_fraction": 0.8076923076923077,
+              "rectangle_probe_agreement": 1.0,
+              "patch_area_relative_units_squared": 0.7475722477389146,
+              "rms_distance_relative_units": 0.010456996663752476,
+              "max_distance_relative_units": 0.02409794231091768,
+              "distance_tolerance_relative_units": 0.02745370411257634,
+              "projected_sample_rms_px": 0.8348693942670465
+            }
+          ],
+          "ransac_seed": 0,
+          "ransac_iterations_per_tile": 48,
+          "storage_quantization_decimals": 6
+        },
+        {
+          "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v2",
+          "source_id": "hero-courtyard:frame:106:run:hero-courtyard-v2",
+          "timestamp_us": 4421000,
+          "valid_depth_pixels": 171520,
+          "invalid_depth_pixels": 0,
+          "sampled_vertices": 980,
+          "vertex_count": 970,
+          "triangle_count": 1714,
+          "rejected_cells": 55,
+          "source_reprojection_max_px": 5.684341886080802e-14,
+          "plane_fits": [],
+          "ransac_seed": 0,
+          "ransac_iterations_per_tile": 48,
+          "storage_quantization_decimals": 6
+        }
+      ],
+      "limitations": [
+        "Each mesh is a single-view 2.5D depth hypothesis, not a recovered closed environment.",
+        "Cross-frame cameras, static object identities and hidden geometry remain unresolved."
+      ]
+    },
+    "temporal": {
+      "decoded_frames": 192,
+      "generated_bytes": 2960304,
+      "timestamp_source": "opencv-pos-msec",
+      "timestamp_fallback_frames": 0,
+      "blank_detection_gaps": 0,
+      "transitions": [
+        {
+          "start_us": 2628000,
+          "end_us": 2669000,
+          "boundary_us": 2669000,
+          "kind": "hard-cut",
+          "score": 0.540848,
+          "reasons": [
+            "brightness-normalized appearance changes across most image regions",
+            "distributed features do not support one coherent motion",
+            "boundary change is an isolated spike above surrounding motion"
+          ]
+        },
+        {
+          "start_us": 4379000,
+          "end_us": 4421000,
+          "boundary_us": 4421000,
+          "kind": "hard-cut",
+          "score": 0.586897,
+          "reasons": [
+            "brightness-normalized appearance changes across most image regions",
+            "geometric feature support is insufficient for a motion explanation",
+            "boundary change is an isolated spike above surrounding motion"
+          ]
+        },
+        {
+          "start_us": 6173000,
+          "end_us": 6840000,
+          "boundary_us": null,
+          "kind": "uncertain",
+          "score": 0.104724,
+          "reasons": [
+            "multi-frame change lacks stable endpoints or monotonic transition evidence"
+          ]
+        },
+        {
+          "start_us": 6840000,
+          "end_us": 7049000,
+          "boundary_us": null,
+          "kind": "motion",
+          "score": 0.129771,
+          "reasons": [
+            "appearance change is explained by distributed coherent motion"
+          ]
+        },
+        {
+          "start_us": 7049000,
+          "end_us": 7174000,
+          "boundary_us": null,
+          "kind": "uncertain",
+          "score": 0.148006,
+          "reasons": [
+            "multi-frame change lacks stable endpoints or monotonic transition evidence"
+          ]
+        },
+        {
+          "start_us": 7174000,
+          "end_us": 7341000,
+          "boundary_us": null,
+          "kind": "motion",
+          "score": 0.147053,
+          "reasons": [
+            "appearance change is explained by distributed coherent motion"
+          ]
+        },
+        {
+          "start_us": 7382000,
+          "end_us": 7424000,
+          "boundary_us": null,
+          "kind": "motion",
+          "score": 0.115126,
+          "reasons": [
+            "appearance change is explained by distributed coherent motion"
+          ]
+        },
+        {
+          "start_us": 7424000,
+          "end_us": 7633000,
+          "boundary_us": null,
+          "kind": "uncertain",
+          "score": 0.157021,
+          "reasons": [
+            "multi-frame change lacks stable endpoints or monotonic transition evidence"
+          ]
+        }
+      ],
+      "location_proposals": [],
+      "sampling": {
+        "requested_fps": 6.0,
+        "max_frames": 360,
+        "sampled_frames": 98,
+        "effective_interval_us": 166667,
+        "limited": false,
+        "cuts_without_evidence": 0
+      },
+      "limitations": [
+        "Image regions and their associations are heuristic; they are not semantic objects or identities.",
+        "No metric camera, depth, motion or 3D geometry is measured by this analysis.",
+        "Transition kinds and scores are deterministic heuristics, not probabilities or accuracy claims.",
+        "Location proposals require both appearance and distributed geometric features; missing features produce no same-location proposal.",
+        "Location proposals do not merge shots and do not estimate an alignment or camera transform.",
+        "OpenCV timestamps depend on decoder support; nominal FPS fallback is not exact variable-rate timing.",
+        "Unsampled movement and occlusion can be missed; tracks link only adjacent visible evidence samples."
+      ]
+    }
   },
   {
     "id": "hero-action",
@@ -22,17 +457,678 @@
     "source_fps": 23.976023976023978,
     "source_start_seconds": 71.98858333333332,
     "duration_seconds": 8.008,
-    "method": "geometry-only",
-    "elapsed_seconds": 14.672000000005937
+    "method": "environment",
+    "elapsed_seconds": 21.531000000002678,
+    "model": {
+      "status": "completed",
+      "config": {
+        "max_frames": 12,
+        "inference_size": 280,
+        "max_seconds": 900,
+        "artifact_limit_bytes": 1073741824,
+        "weight_limit_bytes": 1073741824,
+        "max_gpu_bytes": 4294967296,
+        "device": "auto"
+      },
+      "runtime": {
+        "python": "3.10.4",
+        "platform": "Windows-10-10.0.26300-SP0",
+        "numpy": "1.25.1",
+        "opencv-python": "4.10.0.84",
+        "torch": "2.3.1+cu121",
+        "torchvision": "0.18.1+cu121",
+        "transformers": "4.44.2",
+        "safetensors": "0.4.5",
+        "Pillow": "10.4.0"
+      },
+      "frames": [
+        {
+          "id": "hero-action:frame:3:run:hero-action-v2",
+          "timestamp_us": 125000,
+          "shot_id": "hero-action:shot:0:run:hero-action-v2",
+          "image_sha256": "1ebde413cadc74d5949b2b0eb7c0b85c1f80f4f6e1d114b300c7770622baee61",
+          "image_bytes": 25036,
+          "status": "completed",
+          "array_shape": [
+            268,
+            640
+          ],
+          "artifact": "depth/782acea45c224ae1d088444d.npy",
+          "artifact_sha256": "a000709758da626f6e8700ae2d751835b55be1f55fab902e05e46e2262b69377",
+          "elapsed_seconds": 0.17200000000593718
+        },
+        {
+          "id": "hero-action:frame:29:run:hero-action-v2",
+          "timestamp_us": 1210000,
+          "shot_id": "hero-action:shot:0:run:hero-action-v2",
+          "image_sha256": "7a0fcdb85e9d34777d11fd06770a2da612e8ef4cf9a10a2f1b81cae39ee834fd",
+          "image_bytes": 25479,
+          "status": "completed",
+          "array_shape": [
+            268,
+            640
+          ],
+          "artifact": "depth/3948893c43696fba9c2b26e9.npy",
+          "artifact_sha256": "b79e8bcb7a2ebbd1c20152e7eacc24cd7816dfc3e95bc4e246d2f86589b79dea",
+          "elapsed_seconds": 0.09399999999732245
+        },
+        {
+          "id": "hero-action:frame:31:run:hero-action-v2",
+          "timestamp_us": 1293000,
+          "shot_id": "hero-action:shot:0:run:hero-action-v2",
+          "image_sha256": "d7617faa41557517eb0a1a3fe7ff325bb949f5c1292b9b3c6e5da3e92b6e45f0",
+          "image_bytes": 21656,
+          "status": "completed",
+          "array_shape": [
+            268,
+            640
+          ],
+          "artifact": "depth/70b676a285cddcc8461de873.npy",
+          "artifact_sha256": "a3210bec6174706863477298907670cf2800a0c55ff66e185864bf42ed510369",
+          "elapsed_seconds": 0.09299999999348074
+        },
+        {
+          "id": "hero-action:frame:35:run:hero-action-v2",
+          "timestamp_us": 1460000,
+          "shot_id": "hero-action:shot:0:run:hero-action-v2",
+          "image_sha256": "a63d2a3cf54539d28781356cace3507f3a725b74db569c60a3a79e6fcedf96cf",
+          "image_bytes": 24056,
+          "status": "completed",
+          "array_shape": [
+            268,
+            640
+          ],
+          "artifact": "depth/c6313e02a477a4f6b4451863.npy",
+          "artifact_sha256": "8255511d5e5ca2cca59709ec4eccfb5d9fc2112d2d25c8292666aaefab468e05",
+          "elapsed_seconds": 0.11000000000058208
+        },
+        {
+          "id": "hero-action:frame:37:run:hero-action-v2",
+          "timestamp_us": 1543000,
+          "shot_id": "hero-action:shot:1:run:hero-action-v2",
+          "image_sha256": "122ba4e53ac8201a0aa5d2b95fc8040f5dc965ea0ef57b1ef82739c4bdca047e",
+          "image_bytes": 12008,
+          "status": "completed",
+          "array_shape": [
+            268,
+            640
+          ],
+          "artifact": "depth/4221a39e881dfad2ef747c0c.npy",
+          "artifact_sha256": "faebe93fd5dd6475eabaad978ec4ec980645b2f25c5b811d11c8519f9bc17647",
+          "elapsed_seconds": 0.09400000001187436
+        },
+        {
+          "id": "hero-action:frame:92:run:hero-action-v2",
+          "timestamp_us": 3837000,
+          "shot_id": "hero-action:shot:1:run:hero-action-v2",
+          "image_sha256": "e8b7edd1916ea42b1336ca58f5aceb12b188792ec44b85c0a43f3d6aca9011a5",
+          "image_bytes": 11632,
+          "status": "completed",
+          "array_shape": [
+            268,
+            640
+          ],
+          "artifact": "depth/117f1405fe0387eb42606cbc.npy",
+          "artifact_sha256": "9e7bcc1eb290fc464860222407eac1b2b09002d7a8495bb0686a6194b5936790",
+          "elapsed_seconds": 0.10899999999674037
+        },
+        {
+          "id": "hero-action:frame:93:run:hero-action-v2",
+          "timestamp_us": 3879000,
+          "shot_id": "hero-action:shot:1:run:hero-action-v2",
+          "image_sha256": "c8a444b78cdede0ee475df70db76bce9fda9c2293b49955c1ca66d29303fe3f8",
+          "image_bytes": 14554,
+          "status": "completed",
+          "array_shape": [
+            268,
+            640
+          ],
+          "artifact": "depth/637cc2ca05f7d67f3b069247.npy",
+          "artifact_sha256": "d1ada8d6df06e105029090b142801dec2aeb8ecbda934f84cddd8fed3aaeb348",
+          "elapsed_seconds": 0.09399999999732245
+        },
+        {
+          "id": "hero-action:frame:100:run:hero-action-v2",
+          "timestamp_us": 4171000,
+          "shot_id": "hero-action:shot:2:run:hero-action-v2",
+          "image_sha256": "51144989818a3f66456aa022fe962aec8fd987e47f020d37945476c3e2f1a862",
+          "image_bytes": 21998,
+          "status": "completed",
+          "array_shape": [
+            268,
+            640
+          ],
+          "artifact": "depth/ded47dde3adccf9b035483dc.npy",
+          "artifact_sha256": "c696318a863bec0c72d83fd2ff711d00ad75b115d1c2c8b242aec243ea848428",
+          "elapsed_seconds": 0.09399999999732245
+        },
+        {
+          "id": "hero-action:frame:140:run:hero-action-v2",
+          "timestamp_us": 5839000,
+          "shot_id": "hero-action:shot:2:run:hero-action-v2",
+          "image_sha256": "c4ad14ede0b41bfc57dd501f5e035766f58b7a0f9f563e0b4913e9b6eb86486a",
+          "image_bytes": 14958,
+          "status": "completed",
+          "array_shape": [
+            268,
+            640
+          ],
+          "artifact": "depth/a798bea2bf09bcd6f835c58b.npy",
+          "artifact_sha256": "570d7d2cd43c3b72fd6a58650e3184e1f539da43647108a189e031ecc451352e",
+          "elapsed_seconds": 0.09399999999732245
+        },
+        {
+          "id": "hero-action:frame:145:run:hero-action-v2",
+          "timestamp_us": 6048000,
+          "shot_id": "hero-action:shot:2:run:hero-action-v2",
+          "image_sha256": "12347acfa2e67a3577caff2e51110fd0ea8193c1915413e0c3b26d8a3f9fa5c6",
+          "image_bytes": 13486,
+          "status": "completed",
+          "array_shape": [
+            268,
+            640
+          ],
+          "artifact": "depth/60fcd7b6000223104dea1e48.npy",
+          "artifact_sha256": "60093a844b7f6c3bc91e45fbad8d20c840402ac56c91ecc7820c95f321212e25",
+          "elapsed_seconds": 0.10899999999674037
+        },
+        {
+          "id": "hero-action:frame:159:run:hero-action-v2",
+          "timestamp_us": 6632000,
+          "shot_id": "hero-action:shot:3:run:hero-action-v2",
+          "image_sha256": "11b835cd587e3122f1efaa07a57c84a1a4a8049ff322e2230c1f56c94699fc5c",
+          "image_bytes": 15133,
+          "status": "completed",
+          "array_shape": [
+            268,
+            640
+          ],
+          "artifact": "depth/19602d91ab2cffc1908e43f4.npy",
+          "artifact_sha256": "059794fb63e52b0410fa00762871aa16ac025672dc3c8016ed255c28c2372319",
+          "elapsed_seconds": 0.11000000000058208
+        },
+        {
+          "id": "hero-action:frame:160:run:hero-action-v2",
+          "timestamp_us": 6673000,
+          "shot_id": "hero-action:shot:3:run:hero-action-v2",
+          "image_sha256": "96c69f55fd50eb5ec20a2c5cc36a16778f4297aa1d68ba203eaff157b0bc7508",
+          "image_bytes": 15227,
+          "status": "completed",
+          "array_shape": [
+            268,
+            640
+          ],
+          "artifact": "depth/6311a4d1020b0f783aa17139.npy",
+          "artifact_sha256": "5466beeb05b11127b097195e1bed704c295655beb2a9fbd4fae312a89934135a",
+          "elapsed_seconds": 0.125
+        }
+      ],
+      "failures": [],
+      "source_hash": "ace13eda1a0586d7814fbeb28d441fa2b9b126a04e007360568f22e762836ecf",
+      "metric_units": false,
+      "convention": "higher-is-farther; per-frame ordinal relative depth in [0,1]",
+      "model": {
+        "id": "depth-anything/Depth-Anything-V2-Small-hf",
+        "revision": "5426e4f0f36572d16453bbda7a8389317b1bef99",
+        "source": "https://huggingface.co/depth-anything/Depth-Anything-V2-Small-hf/tree/5426e4f0f36572d16453bbda7a8389317b1bef99",
+        "license": "Apache-2.0",
+        "file_sha256": {
+          "config.json": "c56698d3643dde1f83ea2212759e6b31a22b8f827246a36dd007ee8a22b3ff75",
+          "preprocessor_config.json": "d41175c0d889477ca8fc67191e540faef14baf6275157b3fdecf78469e6bbf84",
+          "model.safetensors": "3152477ce0d8d6978d76b995120de97cb5b928701fd0f817769f59e249a16b70",
+          "README.md": "319566441daaac0c5ed83e75a8fd19bae0863f3275e23f147c06fe0906edf6fb"
+        },
+        "bytes": 99179785
+      },
+      "limitations": [
+        "Independent per-frame normalization loses cross-frame scale.",
+        "Anime depth and semantic object shape are unvalidated hypotheses.",
+        "No training, tuning, paid fallback or network access occurs here.",
+        "Cancellation and time ceilings are observed between noninterruptible model calls."
+      ],
+      "selected_frame_ids": [
+        "hero-action:frame:3:run:hero-action-v2",
+        "hero-action:frame:29:run:hero-action-v2",
+        "hero-action:frame:31:run:hero-action-v2",
+        "hero-action:frame:35:run:hero-action-v2",
+        "hero-action:frame:37:run:hero-action-v2",
+        "hero-action:frame:92:run:hero-action-v2",
+        "hero-action:frame:93:run:hero-action-v2",
+        "hero-action:frame:100:run:hero-action-v2",
+        "hero-action:frame:140:run:hero-action-v2",
+        "hero-action:frame:145:run:hero-action-v2",
+        "hero-action:frame:159:run:hero-action-v2",
+        "hero-action:frame:160:run:hero-action-v2"
+      ],
+      "model_runtime": {
+        "device": "cuda",
+        "gpu_name": "NVIDIA GeForce GTX 1660 SUPER",
+        "cuda_version": "12.1",
+        "precision": "float32",
+        "batch_size": 1,
+        "peak_gpu_bytes": 122539520,
+        "last_model_input_shape": [
+          112,
+          280
+        ]
+      },
+      "elapsed_seconds": 1.9689999999973224,
+      "generated_bytes_at_end": 23647029
+    },
+    "geometry": {
+      "environments": [
+        {
+          "shot_id": "hero-action:shot:0:run:hero-action-v2",
+          "source_id": "hero-action:frame:3:run:hero-action-v2",
+          "timestamp_us": 125000,
+          "valid_depth_pixels": 171520,
+          "invalid_depth_pixels": 0,
+          "sampled_vertices": 980,
+          "vertex_count": 958,
+          "triangle_count": 1586,
+          "rejected_cells": 119,
+          "source_reprojection_max_px": 6.355287432313019e-14,
+          "plane_fits": [],
+          "ransac_seed": 0,
+          "ransac_iterations_per_tile": 48,
+          "storage_quantization_decimals": 6
+        },
+        {
+          "shot_id": "hero-action:shot:1:run:hero-action-v2",
+          "source_id": "hero-action:frame:37:run:hero-action-v2",
+          "timestamp_us": 1543000,
+          "valid_depth_pixels": 171520,
+          "invalid_depth_pixels": 0,
+          "sampled_vertices": 980,
+          "vertex_count": 969,
+          "triangle_count": 1766,
+          "rejected_cells": 29,
+          "source_reprojection_max_px": 5.684341886080802e-14,
+          "plane_fits": [],
+          "ransac_seed": 0,
+          "ransac_iterations_per_tile": 48,
+          "storage_quantization_decimals": 6
+        },
+        {
+          "shot_id": "hero-action:shot:2:run:hero-action-v2",
+          "source_id": "hero-action:frame:100:run:hero-action-v2",
+          "timestamp_us": 4171000,
+          "valid_depth_pixels": 171520,
+          "invalid_depth_pixels": 0,
+          "sampled_vertices": 980,
+          "vertex_count": 979,
+          "triangle_count": 1822,
+          "rejected_cells": 1,
+          "source_reprojection_max_px": 5.859285502108464e-14,
+          "plane_fits": [],
+          "ransac_seed": 0,
+          "ransac_iterations_per_tile": 48,
+          "storage_quantization_decimals": 6
+        },
+        {
+          "shot_id": "hero-action:shot:3:run:hero-action-v2",
+          "source_id": "hero-action:frame:159:run:hero-action-v2",
+          "timestamp_us": 6632000,
+          "valid_depth_pixels": 171520,
+          "invalid_depth_pixels": 0,
+          "sampled_vertices": 980,
+          "vertex_count": 954,
+          "triangle_count": 1666,
+          "rejected_cells": 79,
+          "source_reprojection_max_px": 5.684341886080802e-14,
+          "plane_fits": [],
+          "ransac_seed": 0,
+          "ransac_iterations_per_tile": 48,
+          "storage_quantization_decimals": 6
+        }
+      ],
+      "limitations": [
+        "Each mesh is a single-view 2.5D depth hypothesis, not a recovered closed environment.",
+        "Cross-frame cameras, static object identities and hidden geometry remain unresolved."
+      ]
+    },
+    "temporal": {
+      "decoded_frames": 192,
+      "generated_bytes": 2620856,
+      "timestamp_source": "opencv-pos-msec",
+      "timestamp_fallback_frames": 0,
+      "blank_detection_gaps": 0,
+      "transitions": [
+        {
+          "start_us": 0,
+          "end_us": 42000,
+          "boundary_us": null,
+          "kind": "uncertain",
+          "score": 0.396979,
+          "reasons": [
+            "high change continues in surrounding frames and is not an isolated cut"
+          ]
+        },
+        {
+          "start_us": 417000,
+          "end_us": 459000,
+          "boundary_us": null,
+          "kind": "uncertain",
+          "score": 0.231249,
+          "reasons": [
+            "temporary brightness excursion prevents a cut without proving a flash event"
+          ]
+        },
+        {
+          "start_us": 501000,
+          "end_us": 542000,
+          "boundary_us": null,
+          "kind": "uncertain",
+          "score": 0.262875,
+          "reasons": [
+            "temporary brightness excursion prevents a cut without proving a flash event"
+          ]
+        },
+        {
+          "start_us": 1335000,
+          "end_us": 1376000,
+          "boundary_us": null,
+          "kind": "uncertain",
+          "score": 0.235265,
+          "reasons": [
+            "temporary brightness excursion prevents a cut without proving a flash event"
+          ]
+        },
+        {
+          "start_us": 1502000,
+          "end_us": 1543000,
+          "boundary_us": 1543000,
+          "kind": "hard-cut",
+          "score": 0.497298,
+          "reasons": [
+            "brightness-normalized appearance changes across most image regions",
+            "distributed features do not support one coherent motion",
+            "boundary change is an isolated spike above surrounding motion"
+          ]
+        },
+        {
+          "start_us": 2920000,
+          "end_us": 2961000,
+          "boundary_us": null,
+          "kind": "uncertain",
+          "score": 0.268679,
+          "reasons": [
+            "high change continues in surrounding frames and is not an isolated cut"
+          ]
+        },
+        {
+          "start_us": 3003000,
+          "end_us": 3212000,
+          "boundary_us": null,
+          "kind": "uncertain",
+          "score": 0.412161,
+          "reasons": [
+            "temporary brightness excursion prevents a cut without proving a flash event",
+            "multi-frame change lacks stable endpoints or monotonic transition evidence"
+          ]
+        },
+        {
+          "start_us": 3921000,
+          "end_us": 4129000,
+          "boundary_us": null,
+          "kind": "uncertain",
+          "score": 0.184053,
+          "reasons": [
+            "multi-frame change lacks stable endpoints or monotonic transition evidence"
+          ]
+        },
+        {
+          "start_us": 4129000,
+          "end_us": 4171000,
+          "boundary_us": 4171000,
+          "kind": "hard-cut",
+          "score": 0.424446,
+          "reasons": [
+            "brightness-normalized appearance changes across most image regions",
+            "distributed features do not support one coherent motion",
+            "boundary change is an isolated spike above surrounding motion"
+          ]
+        },
+        {
+          "start_us": 4213000,
+          "end_us": 4254000,
+          "boundary_us": null,
+          "kind": "motion",
+          "score": 0.125896,
+          "reasons": [
+            "appearance change is explained by distributed coherent motion"
+          ]
+        },
+        {
+          "start_us": 4254000,
+          "end_us": 4546000,
+          "boundary_us": null,
+          "kind": "uncertain",
+          "score": 0.553571,
+          "reasons": [
+            "multi-frame change lacks stable endpoints or monotonic transition evidence",
+            "high change continues in surrounding frames and is not an isolated cut"
+          ]
+        },
+        {
+          "start_us": 4546000,
+          "end_us": 4588000,
+          "boundary_us": null,
+          "kind": "motion",
+          "score": 0.172536,
+          "reasons": [
+            "appearance change is explained by distributed coherent motion"
+          ]
+        },
+        {
+          "start_us": 4588000,
+          "end_us": 4630000,
+          "boundary_us": null,
+          "kind": "uncertain",
+          "score": 0.615925,
+          "reasons": [
+            "high change continues in surrounding frames and is not an isolated cut"
+          ]
+        },
+        {
+          "start_us": 4630000,
+          "end_us": 4671000,
+          "boundary_us": null,
+          "kind": "motion",
+          "score": 0.170932,
+          "reasons": [
+            "appearance change is explained by distributed coherent motion"
+          ]
+        },
+        {
+          "start_us": 4671000,
+          "end_us": 4796000,
+          "boundary_us": null,
+          "kind": "uncertain",
+          "score": 0.465301,
+          "reasons": [
+            "high change continues in surrounding frames and is not an isolated cut",
+            "multi-frame change lacks stable endpoints or monotonic transition evidence"
+          ]
+        },
+        {
+          "start_us": 4880000,
+          "end_us": 5756000,
+          "boundary_us": null,
+          "kind": "uncertain",
+          "score": 0.482102,
+          "reasons": [
+            "high change continues in surrounding frames and is not an isolated cut",
+            "isolated change lacks a stable post-boundary view",
+            "multi-frame change lacks stable endpoints or monotonic transition evidence",
+            "temporary brightness excursion prevents a cut without proving a flash event"
+          ]
+        },
+        {
+          "start_us": 5756000,
+          "end_us": 5797000,
+          "boundary_us": null,
+          "kind": "flash",
+          "score": 0.230069,
+          "reasons": [
+            "abrupt appearance excursion returns to the surrounding view",
+            "brightness-normalized comparison prevents a shot split"
+          ]
+        },
+        {
+          "start_us": 6590000,
+          "end_us": 6632000,
+          "boundary_us": 6632000,
+          "kind": "hard-cut",
+          "score": 0.434119,
+          "reasons": [
+            "brightness-normalized appearance changes across most image regions",
+            "geometric feature support is insufficient for a motion explanation",
+            "boundary change is an isolated spike above surrounding motion"
+          ]
+        },
+        {
+          "start_us": 6715000,
+          "end_us": 6924000,
+          "boundary_us": null,
+          "kind": "uncertain",
+          "score": 0.224284,
+          "reasons": [
+            "multi-frame change lacks stable endpoints or monotonic transition evidence"
+          ]
+        },
+        {
+          "start_us": 7007000,
+          "end_us": 7090000,
+          "boundary_us": null,
+          "kind": "uncertain",
+          "score": 0.159395,
+          "reasons": [
+            "multi-frame change lacks stable endpoints or monotonic transition evidence"
+          ]
+        },
+        {
+          "start_us": 7132000,
+          "end_us": 7299000,
+          "boundary_us": null,
+          "kind": "uncertain",
+          "score": 0.130782,
+          "reasons": [
+            "multi-frame change lacks stable endpoints or monotonic transition evidence"
+          ]
+        },
+        {
+          "start_us": 7341000,
+          "end_us": 7966000,
+          "boundary_us": null,
+          "kind": "uncertain",
+          "score": 0.387721,
+          "reasons": [
+            "multi-frame change lacks stable endpoints or monotonic transition evidence",
+            "temporary brightness excursion prevents a cut without proving a flash event",
+            "isolated change lacks a stable post-boundary view"
+          ]
+        }
+      ],
+      "location_proposals": [],
+      "sampling": {
+        "requested_fps": 6.0,
+        "max_frames": 360,
+        "sampled_frames": 138,
+        "effective_interval_us": 166667,
+        "limited": false,
+        "cuts_without_evidence": 0
+      },
+      "limitations": [
+        "Image regions and their associations are heuristic; they are not semantic objects or identities.",
+        "No metric camera, depth, motion or 3D geometry is measured by this analysis.",
+        "Transition kinds and scores are deterministic heuristics, not probabilities or accuracy claims.",
+        "Location proposals require both appearance and distributed geometric features; missing features produce no same-location proposal.",
+        "Location proposals do not merge shots and do not estimate an alignment or camera transform.",
+        "OpenCV timestamps depend on decoder support; nominal FPS fallback is not exact variable-rate timing.",
+        "Unsampled movement and occlusion can be missed; tracks link only adjacent visible evidence samples."
+      ]
+    }
   },
   {
-    "id": "hero-courtyard-still",
+    "id": "dc5183963a0f4bdaa555495e52dae90d",
     "source_clip_id": "hero-courtyard",
     "excerpt_frame_index": 0,
     "source_sha256": "986d84723580760cb1dfa73fbca602a0715c491aee9b6f203523514dcf2c9ce3",
     "derived_sha256": "2cb2b301ef806c9cc795333e5f10edcc4c8a8b1f511a60ef4ea322a7fbc18b2f",
     "changes": "First decoded frame of resized, re-encoded excerpt saved as PNG",
     "independent_evidence": false,
-    "geometry": "Empty manual blockout; no reconstruction"
+    "geometry": {
+      "valid_depth_pixels": 171520,
+      "invalid_depth_pixels": 0,
+      "sampled_vertices": 980,
+      "vertex_count": 972,
+      "triangle_count": 1780,
+      "rejected_cells": 22,
+      "source_reprojection_max_px": 5.684341886080802e-14,
+      "plane_fits": [],
+      "ransac_seed": 0,
+      "ransac_iterations_per_tile": 48,
+      "storage_quantization_decimals": 6
+    },
+    "elapsed_seconds": 13.031000000002678,
+    "model": {
+      "status": "completed",
+      "source_kind": "image",
+      "source_id": "dc5183963a0f4bdaa555495e52dae90d",
+      "source_hash": "2cb2b301ef806c9cc795333e5f10edcc4c8a8b1f511a60ef4ea322a7fbc18b2f",
+      "width": 640,
+      "height": 268,
+      "config": {
+        "max_frames": 12,
+        "inference_size": 280,
+        "max_seconds": 900,
+        "artifact_limit_bytes": 1073741824,
+        "weight_limit_bytes": 1073741824,
+        "max_gpu_bytes": 4294967296,
+        "device": "auto"
+      },
+      "runtime": {
+        "python": "3.10.4",
+        "platform": "Windows-10-10.0.26300-SP0",
+        "numpy": "1.25.1",
+        "opencv-python": "4.10.0.84",
+        "torch": "2.3.1+cu121",
+        "torchvision": "0.18.1+cu121",
+        "transformers": "4.44.2",
+        "safetensors": "0.4.5",
+        "Pillow": "10.4.0"
+      },
+      "model": {
+        "id": "depth-anything/Depth-Anything-V2-Small-hf",
+        "revision": "5426e4f0f36572d16453bbda7a8389317b1bef99",
+        "source": "https://huggingface.co/depth-anything/Depth-Anything-V2-Small-hf/tree/5426e4f0f36572d16453bbda7a8389317b1bef99",
+        "license": "Apache-2.0",
+        "file_sha256": {
+          "config.json": "c56698d3643dde1f83ea2212759e6b31a22b8f827246a36dd007ee8a22b3ff75",
+          "preprocessor_config.json": "d41175c0d889477ca8fc67191e540faef14baf6275157b3fdecf78469e6bbf84",
+          "model.safetensors": "3152477ce0d8d6978d76b995120de97cb5b928701fd0f817769f59e249a16b70",
+          "README.md": "319566441daaac0c5ed83e75a8fd19bae0863f3275e23f147c06fe0906edf6fb"
+        },
+        "bytes": 99179785
+      },
+      "convention": "higher-is-farther; ordinal relative depth in [0,1]",
+      "metric_units": false,
+      "artifact": "image-depth/relative.npy",
+      "artifact_sha256": "201e417536fab946b501c30a23f148c1ea34ef9a088119eca24be6dc3b369545",
+      "model_runtime": {
+        "device": "cuda",
+        "gpu_name": "NVIDIA GeForce GTX 1660 SUPER",
+        "cuda_version": "12.1",
+        "precision": "float32",
+        "batch_size": 1,
+        "peak_gpu_bytes": 122539520,
+        "last_model_input_shape": [
+          112,
+          280
+        ]
+      },
+      "elapsed_seconds": 0.8120000000053551
+    }
   }
 ]
