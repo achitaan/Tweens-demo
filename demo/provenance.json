@@ -10,7 +10,7 @@
     "source_start_seconds": 31.990291666666664,
     "duration_seconds": 8.008,
     "method": "geometry-only",
-    "elapsed_seconds": 11.90700000000652
+    "elapsed_seconds": 10.593999999997322
   },
   {
     "id": "hero-action",
@@ -23,6 +23,16 @@
     "source_start_seconds": 71.98858333333332,
     "duration_seconds": 8.008,
     "method": "geometry-only",
-    "elapsed_seconds": 18.31200000003446
+    "elapsed_seconds": 14.672000000005937
+  },
+  {
+    "id": "hero-courtyard-still",
+    "source_clip_id": "hero-courtyard",
+    "excerpt_frame_index": 0,
+    "source_sha256": "986d84723580760cb1dfa73fbca602a0715c491aee9b6f203523514dcf2c9ce3",
+    "derived_sha256": "2cb2b301ef806c9cc795333e5f10edcc4c8a8b1f511a60ef4ea322a7fbc18b2f",
+    "changes": "First decoded frame of resized, re-encoded excerpt saved as PNG",
+    "independent_evidence": false,
+    "geometry": "Empty manual blockout; no reconstruction"
   }
 ]
