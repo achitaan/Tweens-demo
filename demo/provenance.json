@@ -9,13 +9,13 @@
     "source_fps": 23.976023976023978,
     "source_start_seconds": 31.990291666666664,
     "duration_seconds": 8.008,
-    "method": "environment",
-    "elapsed_seconds": 21.639999999999418,
+    "method": "structured-environment",
+    "elapsed_seconds": 74.92199999999139,
     "model": {
       "status": "completed",
       "config": {
         "max_frames": 12,
-        "inference_size": 280,
+        "inference_size": 518,
         "max_seconds": 900,
         "artifact_limit_bytes": 1073741824,
         "weight_limit_bytes": 1073741824,
@@ -35,24 +35,9 @@
       },
       "frames": [
         {
-          "id": "hero-courtyard:frame:0:run:hero-courtyard-v2",
-          "timestamp_us": 0,
-          "shot_id": "hero-courtyard:shot:0:run:hero-courtyard-v2",
-          "image_sha256": "ec50a4c54298b5adcadb64d8972c129ae924ce7270cccfd0357c51b8a09d99b5",
-          "image_bytes": 54885,
-          "status": "completed",
-          "array_shape": [
-            268,
-            640
-          ],
-          "artifact": "depth/fb01702fb8fa5ef1da7f8e78.npy",
-          "artifact_sha256": "0424e6ff49049a7ffd9d46036229dfa055e6418c80f2e4510fcd1d3d72f3db0f",
-          "elapsed_seconds": 0.7029999999940628
-        },
-        {
-          "id": "hero-courtyard:frame:4:run:hero-courtyard-v2",
+          "id": "hero-courtyard:frame:4:run:hero-courtyard-v3",
           "timestamp_us": 167000,
-          "shot_id": "hero-courtyard:shot:0:run:hero-courtyard-v2",
+          "shot_id": "hero-courtyard:shot:0:run:hero-courtyard-v3",
           "image_sha256": "598046578f0268dd95ea6003f74f84e652bddb2f2e00b9184b160f11f7fcb225",
           "image_bytes": 56654,
           "status": "completed",
@@ -60,14 +45,14 @@
             268,
             640
           ],
-          "artifact": "depth/d37d84020f6eaca867ef0bbb.npy",
-          "artifact_sha256": "010e575095d670a6e65997438e26441f615b58ab439d6c9bb4a22ff3815d17f1",
-          "elapsed_seconds": 0.046000000002095476
+          "artifact": "depth/978d4075e670fdecb2db5f3b.npy",
+          "artifact_sha256": "41689ce685cb96ecf8c175c9c59fd629719e21e837571c141248239ff05c9736",
+          "elapsed_seconds": 0.09399999999732245
         },
         {
-          "id": "hero-courtyard:frame:52:run:hero-courtyard-v2",
+          "id": "hero-courtyard:frame:52:run:hero-courtyard-v3",
           "timestamp_us": 2169000,
-          "shot_id": "hero-courtyard:shot:0:run:hero-courtyard-v2",
+          "shot_id": "hero-courtyard:shot:0:run:hero-courtyard-v3",
           "image_sha256": "726964a45370883f7747a0ef97b6a4b42350a3a613b3e52931599ab1e3647543",
           "image_bytes": 60375,
           "status": "completed",
@@ -75,14 +60,14 @@
             268,
             640
           ],
-          "artifact": "depth/05332943825993712830f3f8.npy",
-          "artifact_sha256": "30fec72ac2d29d02410c5c683e269ef9348b43172f9190a0c3f43ded5a141870",
-          "elapsed_seconds": 0.046999999991385266
+          "artifact": "depth/4bf7450dacca420b84b7dbfc.npy",
+          "artifact_sha256": "fc004dc1419801912b71514fb8a854398901a025369e4fbaf54c77e471c9d290",
+          "elapsed_seconds": 0.09399999999732245
         },
         {
-          "id": "hero-courtyard:frame:60:run:hero-courtyard-v2",
+          "id": "hero-courtyard:frame:60:run:hero-courtyard-v3",
           "timestamp_us": 2503000,
-          "shot_id": "hero-courtyard:shot:0:run:hero-courtyard-v2",
+          "shot_id": "hero-courtyard:shot:0:run:hero-courtyard-v3",
           "image_sha256": "129e6f5c7c54da7c1fd437a2ffb9204e7b8c7ead590e55ed315c8d84606c366f",
           "image_bytes": 60176,
           "status": "completed",
@@ -90,14 +75,14 @@
             268,
             640
           ],
-          "artifact": "depth/4cabaa36a925e6c3a9add367.npy",
-          "artifact_sha256": "f9c14f5b88764ab6a4aaf37bd0c9732a6429083cf3f2bc373b8a94b70b889593",
-          "elapsed_seconds": 0.06300000000919681
+          "artifact": "depth/472b60adb53ce54b9588f03c.npy",
+          "artifact_sha256": "880f362062a82d50226d5f9dc734ac82f27647c83e109da3b28d05afbe468abd",
+          "elapsed_seconds": 0.09400000001187436
         },
         {
-          "id": "hero-courtyard:frame:64:run:hero-courtyard-v2",
+          "id": "hero-courtyard:frame:64:run:hero-courtyard-v3",
           "timestamp_us": 2669000,
-          "shot_id": "hero-courtyard:shot:1:run:hero-courtyard-v2",
+          "shot_id": "hero-courtyard:shot:1:run:hero-courtyard-v3",
           "image_sha256": "595caeafb898c8be2a493ea99d94428c396e990a94195e921c46e6ed8fef0204",
           "image_bytes": 40564,
           "status": "completed",
@@ -105,14 +90,14 @@
             268,
             640
           ],
-          "artifact": "depth/81237100dcabf6e9a878da51.npy",
-          "artifact_sha256": "a49bcd7567483325a4127662026f8c4115d42ae06aa62a5a3a6935a23e6c5fcc",
-          "elapsed_seconds": 0.06199999999080319
+          "artifact": "depth/dd6cfaa4835473f7f473ae92.npy",
+          "artifact_sha256": "63594f860a002b0e905ee608fdf8abf6f7618e1471d1dff922b476610ac7d746",
+          "elapsed_seconds": 0.09399999999732245
         },
         {
-          "id": "hero-courtyard:frame:76:run:hero-courtyard-v2",
+          "id": "hero-courtyard:frame:76:run:hero-courtyard-v3",
           "timestamp_us": 3170000,
-          "shot_id": "hero-courtyard:shot:1:run:hero-courtyard-v2",
+          "shot_id": "hero-courtyard:shot:1:run:hero-courtyard-v3",
           "image_sha256": "2be1f690eeb7eb7b3de373f1a79a281a9bb57539d4260fef589e15caa72093d5",
           "image_bytes": 41158,
           "status": "completed",
@@ -120,14 +105,14 @@
             268,
             640
           ],
-          "artifact": "depth/582fbca9cc15c366c49ad98c.npy",
-          "artifact_sha256": "4d24c1ca1797cd48c8614d9f4dae935c0cd030f8d0193f35b83540205958e095",
-          "elapsed_seconds": 0.06300000000919681
+          "artifact": "depth/28af7c01f4f5c0fba58dc1ee.npy",
+          "artifact_sha256": "ab6c9eb255fbcfb345f3802f4472cfaa636ecb48c8eecd4062088f581db07a70",
+          "elapsed_seconds": 0.09399999999732245
         },
         {
-          "id": "hero-courtyard:frame:92:run:hero-courtyard-v2",
+          "id": "hero-courtyard:frame:92:run:hero-courtyard-v3",
           "timestamp_us": 3837000,
-          "shot_id": "hero-courtyard:shot:1:run:hero-courtyard-v2",
+          "shot_id": "hero-courtyard:shot:1:run:hero-courtyard-v3",
           "image_sha256": "53a3c2ed9f312b3d515f26961f1d886fc1bea95b5e86058bb3e59dea80cd640a",
           "image_bytes": 41923,
           "status": "completed",
@@ -135,14 +120,14 @@
             268,
             640
           ],
-          "artifact": "depth/07760cafc1ef94bd8cb603b4.npy",
-          "artifact_sha256": "87e15aa76b07b7c54bd65acf2b198f214b42d8d2e153413b22571c76e26f8810",
-          "elapsed_seconds": 0.0629999999946449
+          "artifact": "depth/d0ee39aad8bab9b62881550a.npy",
+          "artifact_sha256": "0eeff15b2173e471f0bc888c3b092b3504cbf8c426e17f95b9351b9c58974c7d",
+          "elapsed_seconds": 0.09299999999348074
         },
         {
-          "id": "hero-courtyard:frame:100:run:hero-courtyard-v2",
+          "id": "hero-courtyard:frame:100:run:hero-courtyard-v3",
           "timestamp_us": 4171000,
-          "shot_id": "hero-courtyard:shot:1:run:hero-courtyard-v2",
+          "shot_id": "hero-courtyard:shot:1:run:hero-courtyard-v3",
           "image_sha256": "6a4d7ab904b29f138a84eaae4f5adba1c026d5ae5bc6011a7af71061543c8f21",
           "image_bytes": 41604,
           "status": "completed",
@@ -150,14 +135,14 @@
             268,
             640
           ],
-          "artifact": "depth/006c1ba0b2dbb0128b3fad34.npy",
-          "artifact_sha256": "d0107bf8e50fdaba9f7aeb359e3bc9d72b1e1012c0bd7201ea038f1bf97c8332",
-          "elapsed_seconds": 0.09399999999732245
+          "artifact": "depth/061d79e199f748530b3f14d5.npy",
+          "artifact_sha256": "a162787f74cb8d4e8ce9805772de4f7b80d5da13eb9a07d79d4097075b532ebc",
+          "elapsed_seconds": 0.09400000001187436
         },
         {
-          "id": "hero-courtyard:frame:106:run:hero-courtyard-v2",
+          "id": "hero-courtyard:frame:106:run:hero-courtyard-v3",
           "timestamp_us": 4421000,
-          "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v2",
+          "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
           "image_sha256": "2cc35bffddcaa89ea5a62c905fbfb376d3b42fa97326af1c08a40b36e597aeeb",
           "image_bytes": 19672,
           "status": "completed",
@@ -165,14 +150,14 @@
             268,
             640
           ],
-          "artifact": "depth/8d02365f24ddf7fe12822b24.npy",
-          "artifact_sha256": "968854e96e167d0064bcc0c1f4b04fc336958e1077ee04a4efba016de16bd19e",
-          "elapsed_seconds": 0.07800000000861473
+          "artifact": "depth/e088273f554b3bf87a96b555.npy",
+          "artifact_sha256": "a21789fa067e544171b6fc515a86c05df0b499f336b409ea543f04801943b537",
+          "elapsed_seconds": 0.10899999999674037
         },
         {
-          "id": "hero-courtyard:frame:109:run:hero-courtyard-v2",
+          "id": "hero-courtyard:frame:109:run:hero-courtyard-v3",
           "timestamp_us": 4546000,
-          "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v2",
+          "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
           "image_sha256": "25b5d070059283f8c99043762c4b8ca10a8296be00cba28ba776b4b52f495523",
           "image_bytes": 19744,
           "status": "completed",
@@ -180,14 +165,14 @@
             268,
             640
           ],
-          "artifact": "depth/ff87ecfb0c529842ea528386.npy",
-          "artifact_sha256": "644d1aa9a224fd8212a400f5434cbba14813594c7155ef99c074223cd22fa56a",
-          "elapsed_seconds": 0.07799999999406282
+          "artifact": "depth/63bae893aacbe1312be3c338.npy",
+          "artifact_sha256": "e0a9e9b894ed7b910a5eb127cafcf2f1b8fad75404c6f20f7b749f5869cef676",
+          "elapsed_seconds": 0.125
         },
         {
-          "id": "hero-courtyard:frame:111:run:hero-courtyard-v2",
+          "id": "hero-courtyard:frame:111:run:hero-courtyard-v3",
           "timestamp_us": 4630000,
-          "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v2",
+          "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
           "image_sha256": "ac5e2633d6a3c7f146fd8c1585587fa3019d7f039e1bcea3708614dd9691d022",
           "image_bytes": 19064,
           "status": "completed",
@@ -195,14 +180,14 @@
             268,
             640
           ],
-          "artifact": "depth/ec409500831cef9280f2ff95.npy",
-          "artifact_sha256": "8dadb24f52fc2e08cc48ca99a27ca65a3983e96970002a3bc298579637ddf78c",
-          "elapsed_seconds": 0.10899999999674037
+          "artifact": "depth/ef1b8750f0d9105a231e1a54.npy",
+          "artifact_sha256": "aab9a11440c0e2d47f416d56cd221b14f4ec2a4744208a1c5adc9f085c7fff21",
+          "elapsed_seconds": 0.125
         },
         {
-          "id": "hero-courtyard:frame:168:run:hero-courtyard-v2",
+          "id": "hero-courtyard:frame:168:run:hero-courtyard-v3",
           "timestamp_us": 7007000,
-          "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v2",
+          "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
           "image_sha256": "00d7dcc5fe872fb8518ba98ce7b0b6c2afa9f8237e5520e3e9669d9568008f0c",
           "image_bytes": 22215,
           "status": "completed",
@@ -210,13 +195,13 @@
             268,
             640
           ],
-          "artifact": "depth/b1775586505664fed27c4de8.npy",
-          "artifact_sha256": "74fc4f6af99d87c1d62dff858682bbd6c86f633732233bda5e93f73e91781207",
+          "artifact": "depth/210325f28dbb0852d5e8b8b4.npy",
+          "artifact_sha256": "b36f062b2b0117972f21936a98e514b381d8ee674f036bd590e54e5859093245",
           "elapsed_seconds": 0.11000000000058208
         }
       ],
       "failures": [],
-      "source_hash": "c16983d32b6d592416a53bb0f1659647b180405cec8923d2c45f737abbcfef74",
+      "source_hash": "5059b82e86242e14a92670f8b72f3e7fd5524d1bc184ea25d9c4aa757962b63d",
       "metric_units": false,
       "convention": "higher-is-farther; per-frame ordinal relative depth in [0,1]",
       "model": {
@@ -239,18 +224,17 @@
         "Cancellation and time ceilings are observed between noninterruptible model calls."
       ],
       "selected_frame_ids": [
-        "hero-courtyard:frame:0:run:hero-courtyard-v2",
-        "hero-courtyard:frame:4:run:hero-courtyard-v2",
-        "hero-courtyard:frame:52:run:hero-courtyard-v2",
-        "hero-courtyard:frame:60:run:hero-courtyard-v2",
-        "hero-courtyard:frame:64:run:hero-courtyard-v2",
-        "hero-courtyard:frame:76:run:hero-courtyard-v2",
-        "hero-courtyard:frame:92:run:hero-courtyard-v2",
-        "hero-courtyard:frame:100:run:hero-courtyard-v2",
-        "hero-courtyard:frame:106:run:hero-courtyard-v2",
-        "hero-courtyard:frame:109:run:hero-courtyard-v2",
-        "hero-courtyard:frame:111:run:hero-courtyard-v2",
-        "hero-courtyard:frame:168:run:hero-courtyard-v2"
+        "hero-courtyard:frame:4:run:hero-courtyard-v3",
+        "hero-courtyard:frame:52:run:hero-courtyard-v3",
+        "hero-courtyard:frame:60:run:hero-courtyard-v3",
+        "hero-courtyard:frame:64:run:hero-courtyard-v3",
+        "hero-courtyard:frame:76:run:hero-courtyard-v3",
+        "hero-courtyard:frame:92:run:hero-courtyard-v3",
+        "hero-courtyard:frame:100:run:hero-courtyard-v3",
+        "hero-courtyard:frame:106:run:hero-courtyard-v3",
+        "hero-courtyard:frame:109:run:hero-courtyard-v3",
+        "hero-courtyard:frame:111:run:hero-courtyard-v3",
+        "hero-courtyard:frame:168:run:hero-courtyard-v3"
       ],
       "model_runtime": {
         "device": "cuda",
@@ -258,81 +242,1331 @@
         "cuda_version": "12.1",
         "precision": "float32",
         "batch_size": 1,
-        "peak_gpu_bytes": 121416192,
+        "peak_gpu_bytes": 156143616,
         "last_model_input_shape": [
-          112,
-          280
+          210,
+          518
         ]
       },
-      "elapsed_seconds": 9.968999999997322,
-      "generated_bytes_at_end": 11314170
+      "elapsed_seconds": 1.764999999999418,
+      "generated_bytes_at_end": 11316503
     },
     "geometry": {
-      "environments": [
+      "structures": [
         {
-          "shot_id": "hero-courtyard:shot:0:run:hero-courtyard-v2",
-          "source_id": "hero-courtyard:frame:0:run:hero-courtyard-v2",
-          "timestamp_us": 0,
-          "valid_depth_pixels": 171520,
-          "invalid_depth_pixels": 0,
-          "sampled_vertices": 980,
-          "vertex_count": 972,
-          "triangle_count": 1778,
-          "rejected_cells": 23,
-          "source_reprojection_max_px": 5.859285502108464e-14,
-          "plane_fits": [],
-          "ransac_seed": 0,
-          "ransac_iterations_per_tile": 48,
-          "storage_quantization_decimals": 6
-        },
-        {
-          "shot_id": "hero-courtyard:shot:1:run:hero-courtyard-v2",
-          "source_id": "hero-courtyard:frame:64:run:hero-courtyard-v2",
-          "timestamp_us": 2669000,
-          "valid_depth_pixels": 171520,
-          "invalid_depth_pixels": 0,
-          "sampled_vertices": 980,
-          "vertex_count": 979,
-          "triangle_count": 1822,
-          "rejected_cells": 1,
-          "source_reprojection_max_px": 5.684341886080802e-14,
-          "plane_fits": [
+          "shot_id": "hero-courtyard:shot:0:run:hero-courtyard-v3",
+          "source_id": "hero-courtyard:frame:0:run:hero-courtyard-v3",
+          "candidate_count": 6,
+          "candidates": [
             {
-              "primitive_id": "environment-plane-bd2a29699b144707",
-              "sample_count": 63,
-              "tile_inlier_fraction": 0.8076923076923077,
-              "rectangle_probe_agreement": 1.0,
-              "patch_area_relative_units_squared": 0.7475722477389146,
-              "rms_distance_relative_units": 0.010456996663752476,
-              "max_distance_relative_units": 0.02409794231091768,
-              "distance_tolerance_relative_units": 0.02745370411257634,
-              "projected_sample_rms_px": 0.8348693942670465
+              "pixels": [
+                [
+                  418.0,
+                  83.0
+                ],
+                [
+                  453.0,
+                  100.0
+                ],
+                [
+                  509.0,
+                  96.0
+                ],
+                [
+                  464.0,
+                  78.0
+                ]
+              ],
+              "origin": "region boundary",
+              "support_ids": [
+                "hero-courtyard:frame:0:run:hero-courtyard-v3:perspective:756555dbb2f54c99ab229ca4"
+              ]
+            },
+            {
+              "pixels": [
+                [
+                  309.0,
+                  180.0
+                ],
+                [
+                  353.0,
+                  207.0
+                ],
+                [
+                  383.0,
+                  193.0
+                ],
+                [
+                  344.0,
+                  170.0
+                ]
+              ],
+              "origin": "region boundary",
+              "support_ids": [
+                "hero-courtyard:frame:0:run:hero-courtyard-v3:perspective:be437270d5eee96c2c57c2e1",
+                "hero-courtyard:frame:0:run:hero-courtyard-v3:perspective:ee3e71881eefa52571abff36",
+                "hero-courtyard:frame:0:run:hero-courtyard-v3:perspective:8c7babebed17c5b527298e33",
+                "hero-courtyard:frame:0:run:hero-courtyard-v3:perspective:c8a2538fa9cc5038ba5cdd2e"
+              ]
+            },
+            {
+              "pixels": [
+                [
+                  360.0,
+                  163.0
+                ],
+                [
+                  396.0,
+                  179.0
+                ],
+                [
+                  416.0,
+                  170.0
+                ],
+                [
+                  381.0,
+                  152.0
+                ]
+              ],
+              "origin": "original-image color-region boundary",
+              "support_ids": [
+                "hero-courtyard:frame:0:run:hero-courtyard-v3:perspective:531091b6756bbc34347a35c7",
+                "hero-courtyard:frame:0:run:hero-courtyard-v3:perspective:4cc61baa808143dec81b2564"
+              ]
+            },
+            {
+              "pixels": [
+                [
+                  264.0,
+                  153.0
+                ],
+                [
+                  292.0,
+                  168.0
+                ],
+                [
+                  311.0,
+                  159.0
+                ],
+                [
+                  287.0,
+                  145.0
+                ]
+              ],
+              "origin": "original-image color-region boundary",
+              "support_ids": [
+                "hero-courtyard:frame:0:run:hero-courtyard-v3:perspective:78f3e0f6fcaf79d306300b9b",
+                "hero-courtyard:frame:0:run:hero-courtyard-v3:perspective:082c45eebc8fef75a9c56058",
+                "hero-courtyard:frame:0:run:hero-courtyard-v3:perspective:7d10a6c937be3d0caaf047a0"
+              ]
+            },
+            {
+              "pixels": [
+                [
+                  506.0,
+                  183.0
+                ],
+                [
+                  526.0,
+                  193.0
+                ],
+                [
+                  537.0,
+                  186.0
+                ],
+                [
+                  516.0,
+                  176.0
+                ]
+              ],
+              "origin": "original-image color-region boundary",
+              "support_ids": [
+                "hero-courtyard:frame:0:run:hero-courtyard-v3:perspective:87504973cc609267e49c9c58"
+              ]
+            },
+            {
+              "pixels": [
+                [
+                  182.0,
+                  202.0
+                ],
+                [
+                  193.0,
+                  196.0
+                ],
+                [
+                  205.0,
+                  204.0
+                ],
+                [
+                  192.0,
+                  211.0
+                ]
+              ],
+              "origin": "closed original-image edges",
+              "support_ids": []
             }
           ],
-          "ransac_seed": 0,
-          "ransac_iterations_per_tile": 48,
-          "storage_quantization_decimals": 6
+          "depth_usage": "soft ordinal prior only; no depth sheet geometry",
+          "solver": "scipy least_squares soft_l1; max_nfev=80",
+          "calibration": {
+            "intrinsics": "prior",
+            "upright": "prior",
+            "camera_center": "fixed relative gauge",
+            "assumptions": [
+              "Centered principal point, square pixels, zero skew.",
+              "Calibration candidates conditionally share horizontal roofs with orthogonal local edges; buildings need not share yaw."
+            ],
+            "vanishing_points": [
+              [
+                [
+                  0.9461543592231602,
+                  -0.3236500428790948,
+                  0.006525202477401105
+                ],
+                [
+                  -0.6012462312795389,
+                  0.799043388125658,
+                  0.005712553266313909
+                ]
+              ],
+              [
+                [
+                  -0.8485648654862401,
+                  -0.5290906436226877,
+                  0.0008717185609214464
+                ],
+                [
+                  -0.9835627802306948,
+                  -0.18055829348002259,
+                  -0.0017204651836110476
+                ]
+              ],
+              [
+                [
+                  -0.9122931560308895,
+                  -0.409535535925681,
+                  -0.0013573036743544714
+                ],
+                [
+                  -0.19118291952725122,
+                  0.981551224324132,
+                  0.002507051821211839
+                ]
+              ],
+              [
+                [
+                  -0.8755020979941881,
+                  -0.48321276039031236,
+                  -0.001226622904370141
+                ],
+                [
+                  -0.9884524537882093,
+                  -0.15151783175742006,
+                  -0.0020231805648599425
+                ]
+              ],
+              [
+                [
+                  0.18426680675499102,
+                  -0.9827563026932854,
+                  0.015355567229582584
+                ],
+                [
+                  0.3251051521330872,
+                  0.9456753513583371,
+                  0.0021840077398575914
+                ]
+              ],
+              [
+                [
+                  0.8168711835006116,
+                  -0.5768199717092319,
+                  -0.0004356646312003262
+                ],
+                [
+                  -0.6383064184452808,
+                  -0.7697654062257735,
+                  -0.005112293969241379
+                ]
+              ]
+            ],
+            "angular_rms_degrees": 33.35420180040695,
+            "rejection_reason": "Roof directions inconsistent, bound-limited, or insufficiently conditioned; retained explicit camera prior.",
+            "condition_ratio": 0.4296948000829305
+          },
+          "hypothesis_fits": [
+            {
+              "variant": 0,
+              "volumes": 3,
+              "height_aspect_ratio_prior": 1.0,
+              "height_prior_status": "unmeasured",
+              "height_priors": [
+                {
+                  "kind": "unmeasured footprint-relative prior",
+                  "requested_height_over_sqrt_area": 0.9730320572853088,
+                  "effective_height_over_sqrt_area": 0.9730320572853088,
+                  "maximum_height_over_minimum_footprint_width": 3.0,
+                  "slope_clearance_minimum_aspect_ratio": 0.6578207133521531,
+                  "mean_height_relative": 1.2019932592256333,
+                  "footprint_area_relative": 1.5259832512939504,
+                  "camera_ray_scale": 1.3478585109723942,
+                  "candidate_index": 0,
+                  "overridden_by_observed_contacts": false
+                },
+                {
+                  "kind": "unmeasured footprint-relative prior",
+                  "requested_height_over_sqrt_area": 0.9945682168006897,
+                  "effective_height_over_sqrt_area": 0.9945682168006897,
+                  "maximum_height_over_minimum_footprint_width": 3.0,
+                  "slope_clearance_minimum_aspect_ratio": 0.4477173215823938,
+                  "mean_height_relative": 1.3935128859779269,
+                  "footprint_area_relative": 1.9631470201732113,
+                  "camera_ray_scale": 1.3191524932006504,
+                  "candidate_index": 1,
+                  "overridden_by_observed_contacts": false
+                },
+                {
+                  "kind": "unmeasured footprint-relative prior",
+                  "requested_height_over_sqrt_area": 0.9822420954704285,
+                  "effective_height_over_sqrt_area": 1.0379123762396898,
+                  "maximum_height_over_minimum_footprint_width": 3.0,
+                  "slope_clearance_minimum_aspect_ratio": 1.036875500738951,
+                  "mean_height_relative": 0.7599693887818919,
+                  "footprint_area_relative": 0.5361308742622735,
+                  "camera_ray_scale": 1.4140140295980683,
+                  "candidate_index": 5,
+                  "overridden_by_observed_contacts": false
+                }
+              ],
+              "slope_prior": 0.0,
+              "visible_roof_corner_rms_px": 5.3644800141730896e-14,
+              "wall_contact_fits": [
+                {
+                  "candidate_index": 0,
+                  "observed_corner_contact_count": 0,
+                  "contact_rms_px": null,
+                  "support_ids": []
+                },
+                {
+                  "candidate_index": 1,
+                  "observed_corner_contact_count": 0,
+                  "contact_rms_px": null,
+                  "support_ids": []
+                },
+                {
+                  "candidate_index": 5,
+                  "observed_corner_contact_count": 0,
+                  "contact_rms_px": null,
+                  "support_ids": []
+                }
+              ],
+              "observed_ground_coverage": 0.0
+            },
+            {
+              "variant": 1,
+              "volumes": 3,
+              "height_aspect_ratio_prior": 2.0,
+              "height_prior_status": "unmeasured",
+              "height_priors": [
+                {
+                  "kind": "unmeasured footprint-relative prior",
+                  "requested_height_over_sqrt_area": 1.9460641145706177,
+                  "effective_height_over_sqrt_area": 1.735043271903524,
+                  "maximum_height_over_minimum_footprint_width": 3.0,
+                  "slope_clearance_minimum_aspect_ratio": 0.5910360990924134,
+                  "mean_height_relative": 1.8532170214962622,
+                  "footprint_area_relative": 1.1408589134242269,
+                  "camera_ray_scale": 1.249582128817967,
+                  "candidate_index": 0,
+                  "overridden_by_observed_contacts": false
+                },
+                {
+                  "kind": "unmeasured footprint-relative prior",
+                  "requested_height_over_sqrt_area": 1.9891364336013795,
+                  "effective_height_over_sqrt_area": 1.9891364336013795,
+                  "maximum_height_over_minimum_footprint_width": 3.0,
+                  "slope_clearance_minimum_aspect_ratio": 0.43335413597625894,
+                  "mean_height_relative": 2.266311059806503,
+                  "footprint_area_relative": 1.2981052074186323,
+                  "camera_ray_scale": 1.1870266171556945,
+                  "candidate_index": 1,
+                  "overridden_by_observed_contacts": false
+                },
+                {
+                  "kind": "unmeasured footprint-relative prior",
+                  "requested_height_over_sqrt_area": 1.964484190940857,
+                  "effective_height_over_sqrt_area": 1.3468413633713223,
+                  "maximum_height_over_minimum_footprint_width": 3.0,
+                  "slope_clearance_minimum_aspect_ratio": 0.8432808539213679,
+                  "mean_height_relative": 0.81304042384162,
+                  "footprint_area_relative": 0.36441092326001845,
+                  "camera_ray_scale": 1.4103752503805933,
+                  "candidate_index": 5,
+                  "overridden_by_observed_contacts": false
+                }
+              ],
+              "slope_prior": 0.08,
+              "visible_roof_corner_rms_px": 0.28637432982637673,
+              "wall_contact_fits": [
+                {
+                  "candidate_index": 0,
+                  "observed_corner_contact_count": 0,
+                  "contact_rms_px": null,
+                  "support_ids": []
+                },
+                {
+                  "candidate_index": 1,
+                  "observed_corner_contact_count": 0,
+                  "contact_rms_px": null,
+                  "support_ids": []
+                },
+                {
+                  "candidate_index": 5,
+                  "observed_corner_contact_count": 0,
+                  "contact_rms_px": null,
+                  "support_ids": []
+                }
+              ],
+              "observed_ground_coverage": 0.0
+            },
+            {
+              "variant": 2,
+              "volumes": 2,
+              "height_aspect_ratio_prior": 0.5,
+              "height_prior_status": "unmeasured",
+              "height_priors": [
+                {
+                  "kind": "unmeasured footprint-relative prior",
+                  "requested_height_over_sqrt_area": 0.4865160286426544,
+                  "effective_height_over_sqrt_area": 0.7175520163719074,
+                  "maximum_height_over_minimum_footprint_width": 3.0,
+                  "slope_clearance_minimum_aspect_ratio": 0.7168351811907168,
+                  "mean_height_relative": 0.9646144657828888,
+                  "footprint_area_relative": 1.807177299577404,
+                  "camera_ray_scale": 1.3823304792213038,
+                  "candidate_index": 0,
+                  "overridden_by_observed_contacts": false
+                },
+                {
+                  "kind": "unmeasured footprint-relative prior",
+                  "requested_height_over_sqrt_area": 0.49728410840034487,
+                  "effective_height_over_sqrt_area": 0.49728410840034487,
+                  "maximum_height_over_minimum_footprint_width": 3.0,
+                  "slope_clearance_minimum_aspect_ratio": 0.4643193705370436,
+                  "mean_height_relative": 0.8133424364650286,
+                  "footprint_area_relative": 2.6750857207205594,
+                  "camera_ray_scale": 1.4051707375140496,
+                  "candidate_index": 1,
+                  "overridden_by_observed_contacts": false
+                }
+              ],
+              "slope_prior": -0.06,
+              "visible_roof_corner_rms_px": 0.332541253620479,
+              "wall_contact_fits": [
+                {
+                  "candidate_index": 0,
+                  "observed_corner_contact_count": 0,
+                  "contact_rms_px": null,
+                  "support_ids": []
+                },
+                {
+                  "candidate_index": 1,
+                  "observed_corner_contact_count": 0,
+                  "contact_rms_px": null,
+                  "support_ids": []
+                }
+              ],
+              "observed_ground_coverage": 0.0
+            }
+          ]
         },
         {
-          "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v2",
-          "source_id": "hero-courtyard:frame:106:run:hero-courtyard-v2",
-          "timestamp_us": 4421000,
-          "valid_depth_pixels": 171520,
-          "invalid_depth_pixels": 0,
-          "sampled_vertices": 980,
-          "vertex_count": 970,
-          "triangle_count": 1714,
-          "rejected_cells": 55,
-          "source_reprojection_max_px": 5.684341886080802e-14,
-          "plane_fits": [],
-          "ransac_seed": 0,
-          "ransac_iterations_per_tile": 48,
-          "storage_quantization_decimals": 6
+          "shot_id": "hero-courtyard:shot:1:run:hero-courtyard-v3",
+          "source_id": "hero-courtyard:frame:64:run:hero-courtyard-v3",
+          "candidate_count": 2,
+          "candidates": [
+            {
+              "pixels": [
+                [
+                  179.0,
+                  70.0
+                ],
+                [
+                  189.0,
+                  77.0
+                ],
+                [
+                  222.0,
+                  78.0
+                ],
+                [
+                  217.0,
+                  64.0
+                ]
+              ],
+              "origin": "original-image color-region boundary",
+              "support_ids": []
+            },
+            {
+              "pixels": [
+                [
+                  276.0,
+                  154.0
+                ],
+                [
+                  281.0,
+                  166.0
+                ],
+                [
+                  270.0,
+                  169.0
+                ],
+                [
+                  265.0,
+                  156.0
+                ]
+              ],
+              "origin": "closed original-image edges",
+              "support_ids": []
+            }
+          ],
+          "depth_usage": "soft ordinal prior only; no depth sheet geometry",
+          "solver": "scipy least_squares soft_l1; max_nfev=80",
+          "calibration": {
+            "intrinsics": "prior",
+            "upright": "prior",
+            "camera_center": "fixed relative gauge",
+            "assumptions": [
+              "Centered principal point, square pixels, zero skew.",
+              "Calibration candidates conditionally share horizontal roofs with orthogonal local edges; buildings need not share yaw."
+            ],
+            "vanishing_points": [],
+            "angular_rms_degrees": null,
+            "rejection_reason": "At least three independent roof regions needed for conditional calibration."
+          },
+          "hypothesis_fits": [
+            {
+              "variant": 0,
+              "volumes": 0,
+              "height_aspect_ratio_prior": 1.0,
+              "height_prior_status": "unmeasured",
+              "height_priors": [],
+              "slope_prior": 0.0,
+              "visible_roof_corner_rms_px": null,
+              "wall_contact_fits": [],
+              "observed_ground_coverage": 0.0
+            },
+            {
+              "variant": 1,
+              "volumes": 0,
+              "height_aspect_ratio_prior": 2.0,
+              "height_prior_status": "unmeasured",
+              "height_priors": [],
+              "slope_prior": 0.08,
+              "visible_roof_corner_rms_px": null,
+              "wall_contact_fits": [],
+              "observed_ground_coverage": 0.0
+            },
+            {
+              "variant": 2,
+              "volumes": 0,
+              "height_aspect_ratio_prior": 0.5,
+              "height_prior_status": "unmeasured",
+              "height_priors": [],
+              "slope_prior": -0.06,
+              "visible_roof_corner_rms_px": null,
+              "wall_contact_fits": [],
+              "observed_ground_coverage": 0.0
+            }
+          ]
+        },
+        {
+          "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+          "source_id": "hero-courtyard:frame:106:run:hero-courtyard-v3",
+          "candidate_count": 1,
+          "candidates": [
+            {
+              "pixels": [
+                [
+                  178.0,
+                  223.0
+                ],
+                [
+                  197.0,
+                  266.0
+                ],
+                [
+                  378.0,
+                  247.0
+                ],
+                [
+                  273.0,
+                  194.0
+                ]
+              ],
+              "origin": "region boundary",
+              "support_ids": [
+                "hero-courtyard:frame:106:run:hero-courtyard-v3:perspective:c4b1446cbbe508217d2ce74f",
+                "hero-courtyard:frame:106:run:hero-courtyard-v3:perspective:4fc424e5417d7ab263276f8a",
+                "hero-courtyard:frame:106:run:hero-courtyard-v3:perspective:8a64ddce860809d1e94067fe",
+                "hero-courtyard:frame:106:run:hero-courtyard-v3:perspective:a6e628ea121e4fd61bfdcd23",
+                "hero-courtyard:frame:106:run:hero-courtyard-v3:perspective:a492cbdbbf325b60a979013f",
+                "hero-courtyard:frame:106:run:hero-courtyard-v3:perspective:38341f8cf1e4baa9e9886d9f",
+                "hero-courtyard:frame:106:run:hero-courtyard-v3:perspective:3b7c1bd89ad5b7f59b02ba60",
+                "hero-courtyard:frame:106:run:hero-courtyard-v3:perspective:75632e17d6463b9f9e9982e4"
+              ]
+            }
+          ],
+          "depth_usage": "soft ordinal prior only; no depth sheet geometry",
+          "solver": "scipy least_squares soft_l1; max_nfev=80",
+          "calibration": {
+            "intrinsics": "prior",
+            "upright": "prior",
+            "camera_center": "fixed relative gauge",
+            "assumptions": [
+              "Centered principal point, square pixels, zero skew.",
+              "Calibration candidates conditionally share horizontal roofs with orthogonal local edges; buildings need not share yaw."
+            ],
+            "vanishing_points": [],
+            "angular_rms_degrees": null,
+            "rejection_reason": "At least three independent roof regions needed for conditional calibration."
+          },
+          "hypothesis_fits": [
+            {
+              "variant": 0,
+              "volumes": 0,
+              "height_aspect_ratio_prior": 1.0,
+              "height_prior_status": "unmeasured",
+              "height_priors": [],
+              "slope_prior": 0.0,
+              "visible_roof_corner_rms_px": null,
+              "wall_contact_fits": [],
+              "observed_ground_coverage": 0.0
+            },
+            {
+              "variant": 1,
+              "volumes": 1,
+              "height_aspect_ratio_prior": 2.0,
+              "height_prior_status": "unmeasured",
+              "height_priors": [
+                {
+                  "kind": "unmeasured footprint-relative prior",
+                  "requested_height_over_sqrt_area": 2.088231284171343,
+                  "effective_height_over_sqrt_area": 1.8098177786314529,
+                  "maximum_height_over_minimum_footprint_width": 3.0,
+                  "slope_clearance_minimum_aspect_ratio": 1.143432585815726,
+                  "mean_height_relative": 3.5870709792130855,
+                  "footprint_area_relative": 3.928350594297752,
+                  "camera_ray_scale": 0.9158388360501573,
+                  "candidate_index": 0,
+                  "overridden_by_observed_contacts": false
+                }
+              ],
+              "slope_prior": 0.08,
+              "visible_roof_corner_rms_px": 3.6117947067085816,
+              "wall_contact_fits": [
+                {
+                  "candidate_index": 0,
+                  "observed_corner_contact_count": 0,
+                  "contact_rms_px": null,
+                  "support_ids": []
+                }
+              ],
+              "observed_ground_coverage": 0.0
+            },
+            {
+              "variant": 2,
+              "volumes": 0,
+              "height_aspect_ratio_prior": 0.5,
+              "height_prior_status": "unmeasured",
+              "height_priors": [],
+              "slope_prior": -0.06,
+              "visible_roof_corner_rms_px": null,
+              "wall_contact_fits": [],
+              "observed_ground_coverage": 0.0
+            }
+          ]
         }
       ],
+      "depth_compatibility": {
+        "source_id": "hero-courtyard:frame:0:run:hero-courtyard-v3",
+        "selected_size": 518,
+        "reduced_quality": false,
+        "elapsed_seconds": 11.625,
+        "failures": [],
+        "config": {
+          "max_frames": 12,
+          "inference_size": 518,
+          "max_seconds": 900,
+          "artifact_limit_bytes": 1073741824,
+          "weight_limit_bytes": 1073741824,
+          "max_gpu_bytes": 4294967296,
+          "device": "auto"
+        },
+        "runtime": {
+          "python": "3.10.4",
+          "platform": "Windows-10-10.0.26300-SP0",
+          "numpy": "1.25.1",
+          "opencv-python": "4.10.0.84",
+          "torch": "2.3.1+cu121",
+          "torchvision": "0.18.1+cu121",
+          "transformers": "4.44.2",
+          "safetensors": "0.4.5",
+          "Pillow": "10.4.0"
+        },
+        "model_runtime": {
+          "model": {
+            "id": "depth-anything/Depth-Anything-V2-Small-hf",
+            "revision": "5426e4f0f36572d16453bbda7a8389317b1bef99",
+            "license": "Apache-2.0",
+            "source": "https://huggingface.co/depth-anything/Depth-Anything-V2-Small-hf/tree/5426e4f0f36572d16453bbda7a8389317b1bef99",
+            "file_sha256": {
+              "config.json": "c56698d3643dde1f83ea2212759e6b31a22b8f827246a36dd007ee8a22b3ff75",
+              "preprocessor_config.json": "d41175c0d889477ca8fc67191e540faef14baf6275157b3fdecf78469e6bbf84",
+              "model.safetensors": "3152477ce0d8d6978d76b995120de97cb5b928701fd0f817769f59e249a16b70",
+              "README.md": "319566441daaac0c5ed83e75a8fd19bae0863f3275e23f147c06fe0906edf6fb"
+            },
+            "bytes": 99179785
+          },
+          "peak_gpu_bytes": 154958848,
+          "gpu_name": "NVIDIA GeForce GTX 1660 SUPER",
+          "cuda_version": "12.1",
+          "device": "cuda",
+          "precision": "float32",
+          "batch_size": 1,
+          "local_files_only": true,
+          "trust_remote_code": false,
+          "last_model_input_shape": [
+            210,
+            518
+          ],
+          "requested_inference_size": 518,
+          "resize_policy": "long-edge-ceiling; rounded-down-14-pixel-patches"
+        },
+        "model": {
+          "id": "depth-anything/Depth-Anything-V2-Small-hf",
+          "revision": "5426e4f0f36572d16453bbda7a8389317b1bef99",
+          "license": "Apache-2.0"
+        },
+        "limitations": [
+          "Per-frame ordinal depth only; no calibrated cross-frame distance."
+        ]
+      },
+      "region_runs": [
+        {
+          "status": "completed",
+          "source_id": "hero-courtyard:frame:0:run:hero-courtyard-v3",
+          "input_shape": [
+            268,
+            640,
+            3
+          ],
+          "input_sha256": "f64a61b3dac62e268d33d06c088b576e7ad7f4ec989eeb0939cfa963a9117247",
+          "config": {
+            "device": "auto",
+            "max_seconds": 900,
+            "max_regions": 64,
+            "artifact_limit_bytes": 1073741824,
+            "weight_limit_bytes": 1073741824,
+            "max_gpu_bytes": 4294967296,
+            "score_threshold": 0.88,
+            "stability_threshold": 0.95
+          },
+          "runtime": {
+            "python": "3.10.4",
+            "platform": "Windows-10-10.0.26300-SP0",
+            "numpy": "1.25.1",
+            "opencv-python": "4.10.0.84",
+            "torch": "2.3.1+cu121",
+            "torchvision": "0.18.1+cu121",
+            "transformers": "4.44.2",
+            "safetensors": "0.4.5",
+            "Pillow": "10.4.0"
+          },
+          "semantic_labels": false,
+          "assumptions": [
+            "Unlabeled SAM proposals; score is predicted mask IoU, not semantic or camera confidence.",
+            "Thresholds are fixed engineering filters, uncalibrated on anime.",
+            "External polygons omit holes and disconnected components."
+          ],
+          "count": 20,
+          "artifact": "regions/d4edccf936a085382576200e/proposals.json",
+          "model_runtime": {
+            "model": {
+              "id": "facebook/sam-vit-base",
+              "revision": "70c1a07f894ebb5b307fd9eaaee97b9dfc16068f",
+              "file_sha256": {
+                "model.safetensors": "892c410e496344e527255ccdcb2cb7244a609acb5389c7c4fdba1288f861c579",
+                "config.json": "5ebd0d8643b486f3a716bf17c2a15531eb818b2b96ff0c6c5dcc88fa015161af",
+                "preprocessor_config.json": "225545a743c654e3c495ec6f545a0eaba57c8ba3fbbd8483b3cb1c0fc58db517"
+              },
+              "bytes": 374986512,
+              "source": "https://huggingface.co/facebook/sam-vit-base/tree/70c1a07f894ebb5b307fd9eaaee97b9dfc16068f",
+              "license": "Apache-2.0"
+            },
+            "peak_gpu_bytes": 2902810112,
+            "device": "cuda",
+            "precision": "float32",
+            "point_grid": [
+              32,
+              32
+            ],
+            "point_batch_size": 8,
+            "crops": 0,
+            "local_files_only": true,
+            "trust_remote_code": false,
+            "image_embeddings": 1,
+            "last_model_input_shape": [
+              1,
+              3,
+              1024,
+              1024
+            ]
+          },
+          "elapsed_seconds": 7.827999999994063,
+          "generated_bytes_before_manifest": 11339022
+        },
+        {
+          "status": "completed",
+          "source_id": "hero-courtyard:frame:52:run:hero-courtyard-v3",
+          "input_shape": [
+            268,
+            640,
+            3
+          ],
+          "input_sha256": "6f3afd23648d589687133b8430dd9d39c72d5dae7c04f439c75f9a793bd531f4",
+          "config": {
+            "device": "auto",
+            "max_seconds": 900,
+            "max_regions": 64,
+            "artifact_limit_bytes": 1073741824,
+            "weight_limit_bytes": 1073741824,
+            "max_gpu_bytes": 4294967296,
+            "score_threshold": 0.88,
+            "stability_threshold": 0.95
+          },
+          "runtime": {
+            "python": "3.10.4",
+            "platform": "Windows-10-10.0.26300-SP0",
+            "numpy": "1.25.1",
+            "opencv-python": "4.10.0.84",
+            "torch": "2.3.1+cu121",
+            "torchvision": "0.18.1+cu121",
+            "transformers": "4.44.2",
+            "safetensors": "0.4.5",
+            "Pillow": "10.4.0"
+          },
+          "semantic_labels": false,
+          "assumptions": [
+            "Unlabeled SAM proposals; score is predicted mask IoU, not semantic or camera confidence.",
+            "Thresholds are fixed engineering filters, uncalibrated on anime.",
+            "External polygons omit holes and disconnected components."
+          ],
+          "count": 15,
+          "artifact": "regions/4bf7450dacca420b84b7dbfc/proposals.json",
+          "model_runtime": {
+            "model": {
+              "id": "facebook/sam-vit-base",
+              "revision": "70c1a07f894ebb5b307fd9eaaee97b9dfc16068f",
+              "file_sha256": {
+                "model.safetensors": "892c410e496344e527255ccdcb2cb7244a609acb5389c7c4fdba1288f861c579",
+                "config.json": "5ebd0d8643b486f3a716bf17c2a15531eb818b2b96ff0c6c5dcc88fa015161af",
+                "preprocessor_config.json": "225545a743c654e3c495ec6f545a0eaba57c8ba3fbbd8483b3cb1c0fc58db517"
+              },
+              "bytes": 374986512,
+              "source": "https://huggingface.co/facebook/sam-vit-base/tree/70c1a07f894ebb5b307fd9eaaee97b9dfc16068f",
+              "license": "Apache-2.0"
+            },
+            "peak_gpu_bytes": 2902810112,
+            "device": "cuda",
+            "precision": "float32",
+            "point_grid": [
+              32,
+              32
+            ],
+            "point_batch_size": 8,
+            "crops": 0,
+            "local_files_only": true,
+            "trust_remote_code": false,
+            "image_embeddings": 1,
+            "last_model_input_shape": [
+              1,
+              3,
+              1024,
+              1024
+            ]
+          },
+          "elapsed_seconds": 6.639999999999418,
+          "generated_bytes_before_manifest": 11350394
+        },
+        {
+          "status": "completed",
+          "source_id": "hero-courtyard:frame:64:run:hero-courtyard-v3",
+          "input_shape": [
+            268,
+            640,
+            3
+          ],
+          "input_sha256": "306cad427b35e1d0e41c2a5ecdb1ae0472cd79e8c6f1ab6ee3016c8cf01a5fb2",
+          "config": {
+            "device": "auto",
+            "max_seconds": 900,
+            "max_regions": 64,
+            "artifact_limit_bytes": 1073741824,
+            "weight_limit_bytes": 1073741824,
+            "max_gpu_bytes": 4294967296,
+            "score_threshold": 0.88,
+            "stability_threshold": 0.95
+          },
+          "runtime": {
+            "python": "3.10.4",
+            "platform": "Windows-10-10.0.26300-SP0",
+            "numpy": "1.25.1",
+            "opencv-python": "4.10.0.84",
+            "torch": "2.3.1+cu121",
+            "torchvision": "0.18.1+cu121",
+            "transformers": "4.44.2",
+            "safetensors": "0.4.5",
+            "Pillow": "10.4.0"
+          },
+          "semantic_labels": false,
+          "assumptions": [
+            "Unlabeled SAM proposals; score is predicted mask IoU, not semantic or camera confidence.",
+            "Thresholds are fixed engineering filters, uncalibrated on anime.",
+            "External polygons omit holes and disconnected components."
+          ],
+          "count": 15,
+          "artifact": "regions/dd6cfaa4835473f7f473ae92/proposals.json",
+          "model_runtime": {
+            "model": {
+              "id": "facebook/sam-vit-base",
+              "revision": "70c1a07f894ebb5b307fd9eaaee97b9dfc16068f",
+              "file_sha256": {
+                "model.safetensors": "892c410e496344e527255ccdcb2cb7244a609acb5389c7c4fdba1288f861c579",
+                "config.json": "5ebd0d8643b486f3a716bf17c2a15531eb818b2b96ff0c6c5dcc88fa015161af",
+                "preprocessor_config.json": "225545a743c654e3c495ec6f545a0eaba57c8ba3fbbd8483b3cb1c0fc58db517"
+              },
+              "bytes": 374986512,
+              "source": "https://huggingface.co/facebook/sam-vit-base/tree/70c1a07f894ebb5b307fd9eaaee97b9dfc16068f",
+              "license": "Apache-2.0"
+            },
+            "peak_gpu_bytes": 2902810112,
+            "device": "cuda",
+            "precision": "float32",
+            "point_grid": [
+              32,
+              32
+            ],
+            "point_batch_size": 8,
+            "crops": 0,
+            "local_files_only": true,
+            "trust_remote_code": false,
+            "image_embeddings": 1,
+            "last_model_input_shape": [
+              1,
+              3,
+              1024,
+              1024
+            ]
+          },
+          "elapsed_seconds": 6.797000000005937,
+          "generated_bytes_before_manifest": 11363245
+        },
+        {
+          "status": "completed",
+          "source_id": "hero-courtyard:frame:76:run:hero-courtyard-v3",
+          "input_shape": [
+            268,
+            640,
+            3
+          ],
+          "input_sha256": "8ead99b6215c63013ed2e2c36660086e25f04ef7f264a8758b2f5574616c359d",
+          "config": {
+            "device": "auto",
+            "max_seconds": 900,
+            "max_regions": 64,
+            "artifact_limit_bytes": 1073741824,
+            "weight_limit_bytes": 1073741824,
+            "max_gpu_bytes": 4294967296,
+            "score_threshold": 0.88,
+            "stability_threshold": 0.95
+          },
+          "runtime": {
+            "python": "3.10.4",
+            "platform": "Windows-10-10.0.26300-SP0",
+            "numpy": "1.25.1",
+            "opencv-python": "4.10.0.84",
+            "torch": "2.3.1+cu121",
+            "torchvision": "0.18.1+cu121",
+            "transformers": "4.44.2",
+            "safetensors": "0.4.5",
+            "Pillow": "10.4.0"
+          },
+          "semantic_labels": false,
+          "assumptions": [
+            "Unlabeled SAM proposals; score is predicted mask IoU, not semantic or camera confidence.",
+            "Thresholds are fixed engineering filters, uncalibrated on anime.",
+            "External polygons omit holes and disconnected components."
+          ],
+          "count": 15,
+          "artifact": "regions/28af7c01f4f5c0fba58dc1ee/proposals.json",
+          "model_runtime": {
+            "model": {
+              "id": "facebook/sam-vit-base",
+              "revision": "70c1a07f894ebb5b307fd9eaaee97b9dfc16068f",
+              "file_sha256": {
+                "model.safetensors": "892c410e496344e527255ccdcb2cb7244a609acb5389c7c4fdba1288f861c579",
+                "config.json": "5ebd0d8643b486f3a716bf17c2a15531eb818b2b96ff0c6c5dcc88fa015161af",
+                "preprocessor_config.json": "225545a743c654e3c495ec6f545a0eaba57c8ba3fbbd8483b3cb1c0fc58db517"
+              },
+              "bytes": 374986512,
+              "source": "https://huggingface.co/facebook/sam-vit-base/tree/70c1a07f894ebb5b307fd9eaaee97b9dfc16068f",
+              "license": "Apache-2.0"
+            },
+            "peak_gpu_bytes": 2902810112,
+            "device": "cuda",
+            "precision": "float32",
+            "point_grid": [
+              32,
+              32
+            ],
+            "point_batch_size": 8,
+            "crops": 0,
+            "local_files_only": true,
+            "trust_remote_code": false,
+            "image_embeddings": 1,
+            "last_model_input_shape": [
+              1,
+              3,
+              1024,
+              1024
+            ]
+          },
+          "elapsed_seconds": 6.688000000009197,
+          "generated_bytes_before_manifest": 11376444
+        },
+        {
+          "status": "completed",
+          "source_id": "hero-courtyard:frame:106:run:hero-courtyard-v3",
+          "input_shape": [
+            268,
+            640,
+            3
+          ],
+          "input_sha256": "5e7a92740f2e08495a1582cfb98fe31db538be46f6402e6a7bb0eb42d1fb01e7",
+          "config": {
+            "device": "auto",
+            "max_seconds": 900,
+            "max_regions": 64,
+            "artifact_limit_bytes": 1073741824,
+            "weight_limit_bytes": 1073741824,
+            "max_gpu_bytes": 4294967296,
+            "score_threshold": 0.88,
+            "stability_threshold": 0.95
+          },
+          "runtime": {
+            "python": "3.10.4",
+            "platform": "Windows-10-10.0.26300-SP0",
+            "numpy": "1.25.1",
+            "opencv-python": "4.10.0.84",
+            "torch": "2.3.1+cu121",
+            "torchvision": "0.18.1+cu121",
+            "transformers": "4.44.2",
+            "safetensors": "0.4.5",
+            "Pillow": "10.4.0"
+          },
+          "semantic_labels": false,
+          "assumptions": [
+            "Unlabeled SAM proposals; score is predicted mask IoU, not semantic or camera confidence.",
+            "Thresholds are fixed engineering filters, uncalibrated on anime.",
+            "External polygons omit holes and disconnected components."
+          ],
+          "count": 5,
+          "artifact": "regions/e088273f554b3bf87a96b555/proposals.json",
+          "model_runtime": {
+            "model": {
+              "id": "facebook/sam-vit-base",
+              "revision": "70c1a07f894ebb5b307fd9eaaee97b9dfc16068f",
+              "file_sha256": {
+                "model.safetensors": "892c410e496344e527255ccdcb2cb7244a609acb5389c7c4fdba1288f861c579",
+                "config.json": "5ebd0d8643b486f3a716bf17c2a15531eb818b2b96ff0c6c5dcc88fa015161af",
+                "preprocessor_config.json": "225545a743c654e3c495ec6f545a0eaba57c8ba3fbbd8483b3cb1c0fc58db517"
+              },
+              "bytes": 374986512,
+              "source": "https://huggingface.co/facebook/sam-vit-base/tree/70c1a07f894ebb5b307fd9eaaee97b9dfc16068f",
+              "license": "Apache-2.0"
+            },
+            "peak_gpu_bytes": 2902810112,
+            "device": "cuda",
+            "precision": "float32",
+            "point_grid": [
+              32,
+              32
+            ],
+            "point_batch_size": 8,
+            "crops": 0,
+            "local_files_only": true,
+            "trust_remote_code": false,
+            "image_embeddings": 1,
+            "last_model_input_shape": [
+              1,
+              3,
+              1024,
+              1024
+            ]
+          },
+          "elapsed_seconds": 6.922000000005937,
+          "generated_bytes_before_manifest": 11381012
+        },
+        {
+          "status": "completed",
+          "source_id": "hero-courtyard:frame:109:run:hero-courtyard-v3",
+          "input_shape": [
+            268,
+            640,
+            3
+          ],
+          "input_sha256": "6a80e59b2147c242489d4696b01190732ed0b90906a371d62ebb7ac899d587a9",
+          "config": {
+            "device": "auto",
+            "max_seconds": 900,
+            "max_regions": 64,
+            "artifact_limit_bytes": 1073741824,
+            "weight_limit_bytes": 1073741824,
+            "max_gpu_bytes": 4294967296,
+            "score_threshold": 0.88,
+            "stability_threshold": 0.95
+          },
+          "runtime": {
+            "python": "3.10.4",
+            "platform": "Windows-10-10.0.26300-SP0",
+            "numpy": "1.25.1",
+            "opencv-python": "4.10.0.84",
+            "torch": "2.3.1+cu121",
+            "torchvision": "0.18.1+cu121",
+            "transformers": "4.44.2",
+            "safetensors": "0.4.5",
+            "Pillow": "10.4.0"
+          },
+          "semantic_labels": false,
+          "assumptions": [
+            "Unlabeled SAM proposals; score is predicted mask IoU, not semantic or camera confidence.",
+            "Thresholds are fixed engineering filters, uncalibrated on anime.",
+            "External polygons omit holes and disconnected components."
+          ],
+          "count": 2,
+          "artifact": "regions/63bae893aacbe1312be3c338/proposals.json",
+          "model_runtime": {
+            "model": {
+              "id": "facebook/sam-vit-base",
+              "revision": "70c1a07f894ebb5b307fd9eaaee97b9dfc16068f",
+              "file_sha256": {
+                "model.safetensors": "892c410e496344e527255ccdcb2cb7244a609acb5389c7c4fdba1288f861c579",
+                "config.json": "5ebd0d8643b486f3a716bf17c2a15531eb818b2b96ff0c6c5dcc88fa015161af",
+                "preprocessor_config.json": "225545a743c654e3c495ec6f545a0eaba57c8ba3fbbd8483b3cb1c0fc58db517"
+              },
+              "bytes": 374986512,
+              "source": "https://huggingface.co/facebook/sam-vit-base/tree/70c1a07f894ebb5b307fd9eaaee97b9dfc16068f",
+              "license": "Apache-2.0"
+            },
+            "peak_gpu_bytes": 2902810112,
+            "device": "cuda",
+            "precision": "float32",
+            "point_grid": [
+              32,
+              32
+            ],
+            "point_batch_size": 8,
+            "crops": 0,
+            "local_files_only": true,
+            "trust_remote_code": false,
+            "image_embeddings": 1,
+            "last_model_input_shape": [
+              1,
+              3,
+              1024,
+              1024
+            ]
+          },
+          "elapsed_seconds": 7.421999999991385,
+          "generated_bytes_before_manifest": 11384218
+        }
+      ],
+      "tracking": {
+        "sample_fps": 23.976,
+        "max_samples": 1440,
+        "timestamp_fallback_frames": 0,
+        "resets": [
+          {
+            "timestamp_us": 0,
+            "shot_id": "hero-courtyard:shot:0:run:hero-courtyard-v3",
+            "reason": "shot-boundary"
+          },
+          {
+            "timestamp_us": 2669000,
+            "shot_id": "hero-courtyard:shot:1:run:hero-courtyard-v3",
+            "reason": "shot-boundary"
+          },
+          {
+            "timestamp_us": 4421000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "shot-boundary"
+          },
+          {
+            "timestamp_us": 6173000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 6215000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 6256000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 6298000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 6340000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 6381000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 6423000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 6465000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 6507000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 6548000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 6590000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 6632000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 6673000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 6715000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 6757000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 6798000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 6840000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7049000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7090000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7132000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7174000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7424000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7466000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7508000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7549000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7591000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7633000,
+            "shot_id": "hero-courtyard:shot:2:run:hero-courtyard-v3",
+            "reason": "transition-window"
+          }
+        ],
+        "competing_motion_rejections": 27,
+        "fallback_matches": 0,
+        "limitations": [
+          "Warps are relative to each shot anchor, with no absolute pose or travel.",
+          "Optical flow/ORB cannot identify semantic background or prove static support.",
+          "Decoder PTS support controls timestamp fidelity; nominal FPS fallback is explicit."
+        ],
+        "decoded_frames": 192,
+        "samples": 142
+      },
+      "covered_shots": [
+        "hero-courtyard:shot:0:run:hero-courtyard-v3",
+        "hero-courtyard:shot:1:run:hero-courtyard-v3",
+        "hero-courtyard:shot:2:run:hero-courtyard-v3"
+      ],
       "limitations": [
-        "Each mesh is a single-view 2.5D depth hypothesis, not a recovered closed environment.",
-        "Cross-frame cameras, static object identities and hidden geometry remain unresolved."
+        "Independent fragment gauges; automatic location proposals do not align shots.",
+        "Hidden ground/volume dimensions remain priors."
       ]
     },
     "temporal": {
@@ -457,13 +1691,13 @@
     "source_fps": 23.976023976023978,
     "source_start_seconds": 71.98858333333332,
     "duration_seconds": 8.008,
-    "method": "environment",
-    "elapsed_seconds": 21.531000000002678,
+    "method": "structured-environment",
+    "elapsed_seconds": 74.375,
     "model": {
       "status": "completed",
       "config": {
         "max_frames": 12,
-        "inference_size": 280,
+        "inference_size": 518,
         "max_seconds": 900,
         "artifact_limit_bytes": 1073741824,
         "weight_limit_bytes": 1073741824,
@@ -483,24 +1717,9 @@
       },
       "frames": [
         {
-          "id": "hero-action:frame:3:run:hero-action-v2",
-          "timestamp_us": 125000,
-          "shot_id": "hero-action:shot:0:run:hero-action-v2",
-          "image_sha256": "1ebde413cadc74d5949b2b0eb7c0b85c1f80f4f6e1d114b300c7770622baee61",
-          "image_bytes": 25036,
-          "status": "completed",
-          "array_shape": [
-            268,
-            640
-          ],
-          "artifact": "depth/782acea45c224ae1d088444d.npy",
-          "artifact_sha256": "a000709758da626f6e8700ae2d751835b55be1f55fab902e05e46e2262b69377",
-          "elapsed_seconds": 0.17200000000593718
-        },
-        {
-          "id": "hero-action:frame:29:run:hero-action-v2",
+          "id": "hero-action:frame:29:run:hero-action-v3",
           "timestamp_us": 1210000,
-          "shot_id": "hero-action:shot:0:run:hero-action-v2",
+          "shot_id": "hero-action:shot:0:run:hero-action-v3",
           "image_sha256": "7a0fcdb85e9d34777d11fd06770a2da612e8ef4cf9a10a2f1b81cae39ee834fd",
           "image_bytes": 25479,
           "status": "completed",
@@ -508,14 +1727,14 @@
             268,
             640
           ],
-          "artifact": "depth/3948893c43696fba9c2b26e9.npy",
-          "artifact_sha256": "b79e8bcb7a2ebbd1c20152e7eacc24cd7816dfc3e95bc4e246d2f86589b79dea",
-          "elapsed_seconds": 0.09399999999732245
+          "artifact": "depth/7dc33ebd6f548a61ae94f4b4.npy",
+          "artifact_sha256": "084c7604394e2c0879ff29fde51bdd66e3cf75f1c7f2f31e1a39bc766a9de9dc",
+          "elapsed_seconds": 0.13999999999941792
         },
         {
-          "id": "hero-action:frame:31:run:hero-action-v2",
+          "id": "hero-action:frame:31:run:hero-action-v3",
           "timestamp_us": 1293000,
-          "shot_id": "hero-action:shot:0:run:hero-action-v2",
+          "shot_id": "hero-action:shot:0:run:hero-action-v3",
           "image_sha256": "d7617faa41557517eb0a1a3fe7ff325bb949f5c1292b9b3c6e5da3e92b6e45f0",
           "image_bytes": 21656,
           "status": "completed",
@@ -523,14 +1742,14 @@
             268,
             640
           ],
-          "artifact": "depth/70b676a285cddcc8461de873.npy",
-          "artifact_sha256": "a3210bec6174706863477298907670cf2800a0c55ff66e185864bf42ed510369",
-          "elapsed_seconds": 0.09299999999348074
+          "artifact": "depth/1a47523308f1a6a1a71563b0.npy",
+          "artifact_sha256": "e629792ff3a216267c93150391d849c6615154c7a1c1c5e13eb1c8cf6dfe2665",
+          "elapsed_seconds": 0.14100000000325963
         },
         {
-          "id": "hero-action:frame:35:run:hero-action-v2",
+          "id": "hero-action:frame:35:run:hero-action-v3",
           "timestamp_us": 1460000,
-          "shot_id": "hero-action:shot:0:run:hero-action-v2",
+          "shot_id": "hero-action:shot:0:run:hero-action-v3",
           "image_sha256": "a63d2a3cf54539d28781356cace3507f3a725b74db569c60a3a79e6fcedf96cf",
           "image_bytes": 24056,
           "status": "completed",
@@ -538,14 +1757,14 @@
             268,
             640
           ],
-          "artifact": "depth/c6313e02a477a4f6b4451863.npy",
-          "artifact_sha256": "8255511d5e5ca2cca59709ec4eccfb5d9fc2112d2d25c8292666aaefab468e05",
-          "elapsed_seconds": 0.11000000000058208
+          "artifact": "depth/efaf91208fe7329e63da19c4.npy",
+          "artifact_sha256": "f6dbb4c9fb6f1668317a72623f1645e5bf53a94b0d383dfce500f993ec631f8a",
+          "elapsed_seconds": 0.1409999999887077
         },
         {
-          "id": "hero-action:frame:37:run:hero-action-v2",
+          "id": "hero-action:frame:37:run:hero-action-v3",
           "timestamp_us": 1543000,
-          "shot_id": "hero-action:shot:1:run:hero-action-v2",
+          "shot_id": "hero-action:shot:1:run:hero-action-v3",
           "image_sha256": "122ba4e53ac8201a0aa5d2b95fc8040f5dc965ea0ef57b1ef82739c4bdca047e",
           "image_bytes": 12008,
           "status": "completed",
@@ -553,14 +1772,14 @@
             268,
             640
           ],
-          "artifact": "depth/4221a39e881dfad2ef747c0c.npy",
-          "artifact_sha256": "faebe93fd5dd6475eabaad978ec4ec980645b2f25c5b811d11c8519f9bc17647",
-          "elapsed_seconds": 0.09400000001187436
+          "artifact": "depth/d94de7bb0957df7880372669.npy",
+          "artifact_sha256": "400edf38eb3d599ef947b1c5e1bcebcfd1d2a22c6a55d2cf28f0023a4fd08897",
+          "elapsed_seconds": 0.13999999999941792
         },
         {
-          "id": "hero-action:frame:92:run:hero-action-v2",
+          "id": "hero-action:frame:92:run:hero-action-v3",
           "timestamp_us": 3837000,
-          "shot_id": "hero-action:shot:1:run:hero-action-v2",
+          "shot_id": "hero-action:shot:1:run:hero-action-v3",
           "image_sha256": "e8b7edd1916ea42b1336ca58f5aceb12b188792ec44b85c0a43f3d6aca9011a5",
           "image_bytes": 11632,
           "status": "completed",
@@ -568,14 +1787,14 @@
             268,
             640
           ],
-          "artifact": "depth/117f1405fe0387eb42606cbc.npy",
-          "artifact_sha256": "9e7bcc1eb290fc464860222407eac1b2b09002d7a8495bb0686a6194b5936790",
-          "elapsed_seconds": 0.10899999999674037
+          "artifact": "depth/66a955f42fa754b2097df447.npy",
+          "artifact_sha256": "13ec738f3c3c6053dfc76b8757d25e1a57698621123646b18d4786867dbd5acd",
+          "elapsed_seconds": 0.125
         },
         {
-          "id": "hero-action:frame:93:run:hero-action-v2",
+          "id": "hero-action:frame:93:run:hero-action-v3",
           "timestamp_us": 3879000,
-          "shot_id": "hero-action:shot:1:run:hero-action-v2",
+          "shot_id": "hero-action:shot:1:run:hero-action-v3",
           "image_sha256": "c8a444b78cdede0ee475df70db76bce9fda9c2293b49955c1ca66d29303fe3f8",
           "image_bytes": 14554,
           "status": "completed",
@@ -583,14 +1802,14 @@
             268,
             640
           ],
-          "artifact": "depth/637cc2ca05f7d67f3b069247.npy",
-          "artifact_sha256": "d1ada8d6df06e105029090b142801dec2aeb8ecbda934f84cddd8fed3aaeb348",
-          "elapsed_seconds": 0.09399999999732245
+          "artifact": "depth/de3ad827edd01f282cba1ff4.npy",
+          "artifact_sha256": "d250f7664248f7f471cccedf3372bc8df39c8db897e46c6cb64182c7d170cca0",
+          "elapsed_seconds": 0.125
         },
         {
-          "id": "hero-action:frame:100:run:hero-action-v2",
+          "id": "hero-action:frame:100:run:hero-action-v3",
           "timestamp_us": 4171000,
-          "shot_id": "hero-action:shot:2:run:hero-action-v2",
+          "shot_id": "hero-action:shot:2:run:hero-action-v3",
           "image_sha256": "51144989818a3f66456aa022fe962aec8fd987e47f020d37945476c3e2f1a862",
           "image_bytes": 21998,
           "status": "completed",
@@ -598,14 +1817,14 @@
             268,
             640
           ],
-          "artifact": "depth/ded47dde3adccf9b035483dc.npy",
-          "artifact_sha256": "c696318a863bec0c72d83fd2ff711d00ad75b115d1c2c8b242aec243ea848428",
-          "elapsed_seconds": 0.09399999999732245
+          "artifact": "depth/af099e3bfa7dd5d8c5a4df39.npy",
+          "artifact_sha256": "7cbb6c107f7dd38dc4a8927ce8894e689296922f84aeecdc7c4ad7f2763fbbd3",
+          "elapsed_seconds": 0.125
         },
         {
-          "id": "hero-action:frame:140:run:hero-action-v2",
+          "id": "hero-action:frame:140:run:hero-action-v3",
           "timestamp_us": 5839000,
-          "shot_id": "hero-action:shot:2:run:hero-action-v2",
+          "shot_id": "hero-action:shot:2:run:hero-action-v3",
           "image_sha256": "c4ad14ede0b41bfc57dd501f5e035766f58b7a0f9f563e0b4913e9b6eb86486a",
           "image_bytes": 14958,
           "status": "completed",
@@ -613,14 +1832,14 @@
             268,
             640
           ],
-          "artifact": "depth/a798bea2bf09bcd6f835c58b.npy",
-          "artifact_sha256": "570d7d2cd43c3b72fd6a58650e3184e1f539da43647108a189e031ecc451352e",
-          "elapsed_seconds": 0.09399999999732245
+          "artifact": "depth/8be7553d4f969d05f9d7bb1a.npy",
+          "artifact_sha256": "d3c0004502a2ee56595d4114f77953279de2d4061923ccbae873512774c5b466",
+          "elapsed_seconds": 0.15600000000267755
         },
         {
-          "id": "hero-action:frame:145:run:hero-action-v2",
+          "id": "hero-action:frame:145:run:hero-action-v3",
           "timestamp_us": 6048000,
-          "shot_id": "hero-action:shot:2:run:hero-action-v2",
+          "shot_id": "hero-action:shot:2:run:hero-action-v3",
           "image_sha256": "12347acfa2e67a3577caff2e51110fd0ea8193c1915413e0c3b26d8a3f9fa5c6",
           "image_bytes": 13486,
           "status": "completed",
@@ -628,14 +1847,14 @@
             268,
             640
           ],
-          "artifact": "depth/60fcd7b6000223104dea1e48.npy",
-          "artifact_sha256": "60093a844b7f6c3bc91e45fbad8d20c840402ac56c91ecc7820c95f321212e25",
-          "elapsed_seconds": 0.10899999999674037
+          "artifact": "depth/8e89d0125ed0a5d4738eb844.npy",
+          "artifact_sha256": "2aed485de3e3d95027d285b48aff8ac1f83f7c14d9da32d0f4f30f14a20940cc",
+          "elapsed_seconds": 0.13999999999941792
         },
         {
-          "id": "hero-action:frame:159:run:hero-action-v2",
+          "id": "hero-action:frame:159:run:hero-action-v3",
           "timestamp_us": 6632000,
-          "shot_id": "hero-action:shot:3:run:hero-action-v2",
+          "shot_id": "hero-action:shot:3:run:hero-action-v3",
           "image_sha256": "11b835cd587e3122f1efaa07a57c84a1a4a8049ff322e2230c1f56c94699fc5c",
           "image_bytes": 15133,
           "status": "completed",
@@ -643,14 +1862,14 @@
             268,
             640
           ],
-          "artifact": "depth/19602d91ab2cffc1908e43f4.npy",
-          "artifact_sha256": "059794fb63e52b0410fa00762871aa16ac025672dc3c8016ed255c28c2372319",
-          "elapsed_seconds": 0.11000000000058208
+          "artifact": "depth/fbd8b9e5c96c61418aa68d29.npy",
+          "artifact_sha256": "fd581fd74906f2bb05a1f9f169f69c99ec3c25899d59fc4863ca3655461a4985",
+          "elapsed_seconds": 0.14100000000325963
         },
         {
-          "id": "hero-action:frame:160:run:hero-action-v2",
+          "id": "hero-action:frame:160:run:hero-action-v3",
           "timestamp_us": 6673000,
-          "shot_id": "hero-action:shot:3:run:hero-action-v2",
+          "shot_id": "hero-action:shot:3:run:hero-action-v3",
           "image_sha256": "96c69f55fd50eb5ec20a2c5cc36a16778f4297aa1d68ba203eaff157b0bc7508",
           "image_bytes": 15227,
           "status": "completed",
@@ -658,13 +1877,13 @@
             268,
             640
           ],
-          "artifact": "depth/6311a4d1020b0f783aa17139.npy",
-          "artifact_sha256": "5466beeb05b11127b097195e1bed704c295655beb2a9fbd4fae312a89934135a",
-          "elapsed_seconds": 0.125
+          "artifact": "depth/0ea0bd9cc03fd2c26183a034.npy",
+          "artifact_sha256": "dfe505f931e740b0ea3f4a0dd9e4741a1a36d4139ecfc218f4fcd9ddab229c78",
+          "elapsed_seconds": 0.1409999999887077
         }
       ],
       "failures": [],
-      "source_hash": "ace13eda1a0586d7814fbeb28d441fa2b9b126a04e007360568f22e762836ecf",
+      "source_hash": "653f072de11ad6208a9eaf63b46eaeda88e2a65b0ce9f42762ede61d8e08b105",
       "metric_units": false,
       "convention": "higher-is-farther; per-frame ordinal relative depth in [0,1]",
       "model": {
@@ -687,18 +1906,17 @@
         "Cancellation and time ceilings are observed between noninterruptible model calls."
       ],
       "selected_frame_ids": [
-        "hero-action:frame:3:run:hero-action-v2",
-        "hero-action:frame:29:run:hero-action-v2",
-        "hero-action:frame:31:run:hero-action-v2",
-        "hero-action:frame:35:run:hero-action-v2",
-        "hero-action:frame:37:run:hero-action-v2",
-        "hero-action:frame:92:run:hero-action-v2",
-        "hero-action:frame:93:run:hero-action-v2",
-        "hero-action:frame:100:run:hero-action-v2",
-        "hero-action:frame:140:run:hero-action-v2",
-        "hero-action:frame:145:run:hero-action-v2",
-        "hero-action:frame:159:run:hero-action-v2",
-        "hero-action:frame:160:run:hero-action-v2"
+        "hero-action:frame:29:run:hero-action-v3",
+        "hero-action:frame:31:run:hero-action-v3",
+        "hero-action:frame:35:run:hero-action-v3",
+        "hero-action:frame:37:run:hero-action-v3",
+        "hero-action:frame:92:run:hero-action-v3",
+        "hero-action:frame:93:run:hero-action-v3",
+        "hero-action:frame:100:run:hero-action-v3",
+        "hero-action:frame:140:run:hero-action-v3",
+        "hero-action:frame:145:run:hero-action-v3",
+        "hero-action:frame:159:run:hero-action-v3",
+        "hero-action:frame:160:run:hero-action-v3"
       ],
       "model_runtime": {
         "device": "cuda",
@@ -706,85 +1924,1410 @@
         "cuda_version": "12.1",
         "precision": "float32",
         "batch_size": 1,
-        "peak_gpu_bytes": 122539520,
+        "peak_gpu_bytes": 156143616,
         "last_model_input_shape": [
-          112,
-          280
+          210,
+          518
         ]
       },
-      "elapsed_seconds": 1.9689999999973224,
-      "generated_bytes_at_end": 23647029
+      "elapsed_seconds": 2.187999999994645,
+      "generated_bytes_at_end": 25790742
     },
     "geometry": {
-      "environments": [
+      "structures": [
         {
-          "shot_id": "hero-action:shot:0:run:hero-action-v2",
-          "source_id": "hero-action:frame:3:run:hero-action-v2",
-          "timestamp_us": 125000,
-          "valid_depth_pixels": 171520,
-          "invalid_depth_pixels": 0,
-          "sampled_vertices": 980,
-          "vertex_count": 958,
-          "triangle_count": 1586,
-          "rejected_cells": 119,
-          "source_reprojection_max_px": 6.355287432313019e-14,
-          "plane_fits": [],
-          "ransac_seed": 0,
-          "ransac_iterations_per_tile": 48,
-          "storage_quantization_decimals": 6
+          "shot_id": "hero-action:shot:0:run:hero-action-v3",
+          "source_id": "hero-action:frame:31:run:hero-action-v3",
+          "candidate_count": 3,
+          "candidates": [
+            {
+              "pixels": [
+                [
+                  466.0,
+                  12.0
+                ],
+                [
+                  437.0,
+                  14.0
+                ],
+                [
+                  393.0,
+                  115.0
+                ],
+                [
+                  413.0,
+                  110.0
+                ]
+              ],
+              "origin": "region boundary",
+              "support_ids": [
+                "hero-action:frame:31:run:hero-action-v3:perspective:ed1c652e0150745a693e7eae",
+                "hero-action:frame:31:run:hero-action-v3:perspective:c8742d1977fdaa32c0ee4ec7",
+                "hero-action:frame:31:run:hero-action-v3:perspective:3d280ab712df6d52753878a6",
+                "hero-action:frame:31:run:hero-action-v3:perspective:733be10a1484c92d3254b1d0",
+                "hero-action:frame:31:run:hero-action-v3:perspective:074dfc591e8ece475800bc7b",
+                "hero-action:frame:31:run:hero-action-v3:perspective:4e87f04f2a8fa814f224ca0b"
+              ]
+            },
+            {
+              "pixels": [
+                [
+                  501.0,
+                  49.0
+                ],
+                [
+                  448.0,
+                  50.0
+                ],
+                [
+                  422.0,
+                  124.0
+                ],
+                [
+                  466.0,
+                  113.0
+                ]
+              ],
+              "origin": "original-image color-region boundary",
+              "support_ids": [
+                "hero-action:frame:31:run:hero-action-v3:perspective:91f4410d233205d430482477",
+                "hero-action:frame:31:run:hero-action-v3:perspective:a9bbb015ff24ab711693ae99",
+                "hero-action:frame:31:run:hero-action-v3:perspective:f9ed3757d7e06c6fe2e32ac4",
+                "hero-action:frame:31:run:hero-action-v3:perspective:9130ed7e2db1db95a83c5164",
+                "hero-action:frame:31:run:hero-action-v3:perspective:93b36705a83e4dfe23307cc8"
+              ]
+            },
+            {
+              "pixels": [
+                [
+                  337.0,
+                  96.0
+                ],
+                [
+                  320.0,
+                  90.0
+                ],
+                [
+                  293.0,
+                  107.0
+                ],
+                [
+                  311.0,
+                  114.0
+                ]
+              ],
+              "origin": "closed original-image edges",
+              "support_ids": [
+                "hero-action:frame:31:run:hero-action-v3:perspective:13ab123c8ff78a7e91ca44bb",
+                "hero-action:frame:31:run:hero-action-v3:perspective:9413e664f69b32d26876edba",
+                "hero-action:frame:31:run:hero-action-v3:perspective:c4ffc6c5e5fee4b991cb2e54"
+              ]
+            }
+          ],
+          "depth_usage": "soft ordinal prior only; no depth sheet geometry",
+          "solver": "scipy least_squares soft_l1; max_nfev=80",
+          "calibration": {
+            "intrinsics": "prior",
+            "upright": "prior",
+            "camera_center": "fixed relative gauge",
+            "assumptions": [
+              "Centered principal point, square pixels, zero skew.",
+              "Calibration candidates conditionally share horizontal roofs with orthogonal local edges; buildings need not share yaw."
+            ],
+            "vanishing_points": [
+              [
+                [
+                  0.9997637215230519,
+                  -0.02171072770397207,
+                  0.0010702471403366515
+                ],
+                [
+                  -0.7545903302243101,
+                  -0.6561919839464389,
+                  -0.002348134664632508
+                ]
+              ],
+              [
+                [
+                  0.9981968868430316,
+                  0.0600096302828804,
+                  0.0013488403136977705
+                ],
+                [
+                  -0.7433956370798592,
+                  -0.6688486453688781,
+                  -0.0021015134657929994
+                ]
+              ],
+              [
+                [
+                  0.9270310283706763,
+                  0.37497884293645334,
+                  -0.0020832157940914075
+                ],
+                [
+                  0.989416722905163,
+                  -0.14509259316836276,
+                  0.00163946432958602
+                ]
+              ]
+            ],
+            "angular_rms_degrees": 23.373679414235106,
+            "rejection_reason": "Roof directions inconsistent, bound-limited, or insufficiently conditioned; retained explicit camera prior.",
+            "condition_ratio": 0.03650921089898035
+          },
+          "hypothesis_fits": [
+            {
+              "variant": 0,
+              "volumes": 1,
+              "height_aspect_ratio_prior": 1.0,
+              "height_prior_status": "unmeasured",
+              "height_priors": [
+                {
+                  "kind": "unmeasured footprint-relative prior",
+                  "requested_height_over_sqrt_area": 0.9935893833637237,
+                  "effective_height_over_sqrt_area": 0.9935893833637237,
+                  "maximum_height_over_minimum_footprint_width": 3.0,
+                  "slope_clearance_minimum_aspect_ratio": 0.2431029395828677,
+                  "mean_height_relative": 1.0411810139394113,
+                  "footprint_area_relative": 1.0980916660111555,
+                  "camera_ray_scale": 1.3774861413016135,
+                  "candidate_index": 2,
+                  "overridden_by_observed_contacts": false
+                }
+              ],
+              "slope_prior": 0.0,
+              "visible_roof_corner_rms_px": 4.973799150320701e-14,
+              "wall_contact_fits": [
+                {
+                  "candidate_index": 2,
+                  "observed_corner_contact_count": 0,
+                  "contact_rms_px": null,
+                  "support_ids": []
+                }
+              ],
+              "observed_ground_coverage": 0.0
+            },
+            {
+              "variant": 1,
+              "volumes": 1,
+              "height_aspect_ratio_prior": 2.0,
+              "height_prior_status": "unmeasured",
+              "height_priors": [
+                {
+                  "kind": "unmeasured footprint-relative prior",
+                  "requested_height_over_sqrt_area": 1.9871787667274474,
+                  "effective_height_over_sqrt_area": 1.8923269122698783,
+                  "maximum_height_over_minimum_footprint_width": 3.0,
+                  "slope_clearance_minimum_aspect_ratio": 0.15213085467572432,
+                  "mean_height_relative": 1.6770072248968027,
+                  "footprint_area_relative": 0.7853758370100706,
+                  "camera_ray_scale": 1.280201950099312,
+                  "candidate_index": 2,
+                  "overridden_by_observed_contacts": false
+                }
+              ],
+              "slope_prior": 0.08,
+              "visible_roof_corner_rms_px": 0.07301817009373943,
+              "wall_contact_fits": [
+                {
+                  "candidate_index": 2,
+                  "observed_corner_contact_count": 0,
+                  "contact_rms_px": null,
+                  "support_ids": []
+                }
+              ],
+              "observed_ground_coverage": 0.0
+            },
+            {
+              "variant": 2,
+              "volumes": 1,
+              "height_aspect_ratio_prior": 0.5,
+              "height_prior_status": "unmeasured",
+              "height_priors": [
+                {
+                  "kind": "unmeasured footprint-relative prior",
+                  "requested_height_over_sqrt_area": 0.49679469168186186,
+                  "effective_height_over_sqrt_area": 0.49679469168186186,
+                  "maximum_height_over_minimum_footprint_width": 3.0,
+                  "slope_clearance_minimum_aspect_ratio": 0.32637706797357063,
+                  "mean_height_relative": 0.5944450053419774,
+                  "footprint_area_relative": 1.4317575150797164,
+                  "camera_ray_scale": 1.4452792858378007,
+                  "candidate_index": 2,
+                  "overridden_by_observed_contacts": false
+                }
+              ],
+              "slope_prior": -0.06,
+              "visible_roof_corner_rms_px": 0.07822771412622946,
+              "wall_contact_fits": [
+                {
+                  "candidate_index": 2,
+                  "observed_corner_contact_count": 0,
+                  "contact_rms_px": null,
+                  "support_ids": []
+                }
+              ],
+              "observed_ground_coverage": 0.0
+            }
+          ]
         },
         {
-          "shot_id": "hero-action:shot:1:run:hero-action-v2",
-          "source_id": "hero-action:frame:37:run:hero-action-v2",
-          "timestamp_us": 1543000,
-          "valid_depth_pixels": 171520,
-          "invalid_depth_pixels": 0,
-          "sampled_vertices": 980,
-          "vertex_count": 969,
-          "triangle_count": 1766,
-          "rejected_cells": 29,
-          "source_reprojection_max_px": 5.684341886080802e-14,
-          "plane_fits": [],
-          "ransac_seed": 0,
-          "ransac_iterations_per_tile": 48,
-          "storage_quantization_decimals": 6
+          "shot_id": "hero-action:shot:1:run:hero-action-v3",
+          "source_id": "hero-action:frame:37:run:hero-action-v3",
+          "candidate_count": 0,
+          "candidates": [],
+          "depth_usage": "soft ordinal prior only; no depth sheet geometry",
+          "solver": "scipy least_squares soft_l1; max_nfev=80",
+          "calibration": {
+            "intrinsics": "prior",
+            "upright": "prior",
+            "camera_center": "fixed relative gauge",
+            "assumptions": [
+              "Centered principal point, square pixels, zero skew.",
+              "Calibration candidates conditionally share horizontal roofs with orthogonal local edges; buildings need not share yaw."
+            ],
+            "vanishing_points": [],
+            "angular_rms_degrees": null,
+            "rejection_reason": "At least three independent roof regions needed for conditional calibration."
+          },
+          "hypothesis_fits": [
+            {
+              "variant": 0,
+              "volumes": 0,
+              "height_aspect_ratio_prior": 1.0,
+              "height_prior_status": "unmeasured",
+              "height_priors": [],
+              "slope_prior": 0.0,
+              "visible_roof_corner_rms_px": null,
+              "wall_contact_fits": [],
+              "observed_ground_coverage": 0.0
+            }
+          ]
         },
         {
-          "shot_id": "hero-action:shot:2:run:hero-action-v2",
-          "source_id": "hero-action:frame:100:run:hero-action-v2",
-          "timestamp_us": 4171000,
-          "valid_depth_pixels": 171520,
-          "invalid_depth_pixels": 0,
-          "sampled_vertices": 980,
-          "vertex_count": 979,
-          "triangle_count": 1822,
-          "rejected_cells": 1,
-          "source_reprojection_max_px": 5.859285502108464e-14,
-          "plane_fits": [],
-          "ransac_seed": 0,
-          "ransac_iterations_per_tile": 48,
-          "storage_quantization_decimals": 6
+          "shot_id": "hero-action:shot:2:run:hero-action-v3",
+          "source_id": "hero-action:frame:100:run:hero-action-v3",
+          "candidate_count": 0,
+          "candidates": [],
+          "depth_usage": "soft ordinal prior only; no depth sheet geometry",
+          "solver": "scipy least_squares soft_l1; max_nfev=80",
+          "calibration": {
+            "intrinsics": "prior",
+            "upright": "prior",
+            "camera_center": "fixed relative gauge",
+            "assumptions": [
+              "Centered principal point, square pixels, zero skew.",
+              "Calibration candidates conditionally share horizontal roofs with orthogonal local edges; buildings need not share yaw."
+            ],
+            "vanishing_points": [],
+            "angular_rms_degrees": null,
+            "rejection_reason": "At least three independent roof regions needed for conditional calibration."
+          },
+          "hypothesis_fits": [
+            {
+              "variant": 0,
+              "volumes": 0,
+              "height_aspect_ratio_prior": 1.0,
+              "height_prior_status": "unmeasured",
+              "height_priors": [],
+              "slope_prior": 0.0,
+              "visible_roof_corner_rms_px": null,
+              "wall_contact_fits": [],
+              "observed_ground_coverage": 0.0
+            }
+          ]
         },
         {
-          "shot_id": "hero-action:shot:3:run:hero-action-v2",
-          "source_id": "hero-action:frame:159:run:hero-action-v2",
-          "timestamp_us": 6632000,
-          "valid_depth_pixels": 171520,
-          "invalid_depth_pixels": 0,
-          "sampled_vertices": 980,
-          "vertex_count": 954,
-          "triangle_count": 1666,
-          "rejected_cells": 79,
-          "source_reprojection_max_px": 5.684341886080802e-14,
-          "plane_fits": [],
-          "ransac_seed": 0,
-          "ransac_iterations_per_tile": 48,
-          "storage_quantization_decimals": 6
+          "shot_id": "hero-action:shot:3:run:hero-action-v3",
+          "source_id": "hero-action:frame:159:run:hero-action-v3",
+          "candidate_count": 1,
+          "candidates": [
+            {
+              "pixels": [
+                [
+                  254.0,
+                  104.0
+                ],
+                [
+                  267.0,
+                  117.0
+                ],
+                [
+                  282.0,
+                  115.0
+                ],
+                [
+                  270.0,
+                  105.0
+                ]
+              ],
+              "origin": "original-image color-region boundary",
+              "support_ids": [
+                "hero-action:frame:159:run:hero-action-v3:perspective:bdfb4c09e42aa8e5f2efe6f2",
+                "hero-action:frame:159:run:hero-action-v3:perspective:0e818e1ba92b271b1b3a08c1",
+                "hero-action:frame:159:run:hero-action-v3:perspective:fe25a933484deb335d1d002a",
+                "hero-action:frame:159:run:hero-action-v3:perspective:b83f4abddef867746ce9eb31",
+                "hero-action:frame:159:run:hero-action-v3:perspective:3b12f518a9f3a823ddb4ae7b",
+                "hero-action:frame:159:run:hero-action-v3:perspective:7caf8bbb17313f7f0cb38c20"
+              ]
+            }
+          ],
+          "depth_usage": "soft ordinal prior only; no depth sheet geometry",
+          "solver": "scipy least_squares soft_l1; max_nfev=80",
+          "calibration": {
+            "intrinsics": "prior",
+            "upright": "prior",
+            "camera_center": "fixed relative gauge",
+            "assumptions": [
+              "Centered principal point, square pixels, zero skew.",
+              "Calibration candidates conditionally share horizontal roofs with orthogonal local edges; buildings need not share yaw."
+            ],
+            "vanishing_points": [],
+            "angular_rms_degrees": null,
+            "rejection_reason": "At least three independent roof regions needed for conditional calibration."
+          },
+          "hypothesis_fits": [
+            {
+              "variant": 0,
+              "volumes": 1,
+              "height_aspect_ratio_prior": 1.0,
+              "height_prior_status": "unmeasured",
+              "height_priors": [
+                {
+                  "kind": "unmeasured footprint-relative prior",
+                  "requested_height_over_sqrt_area": 1.0405348762869835,
+                  "effective_height_over_sqrt_area": 1.157738707530528,
+                  "maximum_height_over_minimum_footprint_width": 3.0,
+                  "slope_clearance_minimum_aspect_ratio": 1.1565821254051232,
+                  "mean_height_relative": 1.5607865294769525,
+                  "footprint_area_relative": 1.8174643847183132,
+                  "camera_ray_scale": 1.2729829685729352,
+                  "candidate_index": 0,
+                  "overridden_by_observed_contacts": false
+                }
+              ],
+              "slope_prior": 0.0,
+              "visible_roof_corner_rms_px": 3.552713678800501e-14,
+              "wall_contact_fits": [
+                {
+                  "candidate_index": 0,
+                  "observed_corner_contact_count": 0,
+                  "contact_rms_px": null,
+                  "support_ids": []
+                }
+              ],
+              "observed_ground_coverage": 0.0
+            },
+            {
+              "variant": 1,
+              "volumes": 1,
+              "height_aspect_ratio_prior": 2.0,
+              "height_prior_status": "unmeasured",
+              "height_priors": [
+                {
+                  "kind": "unmeasured footprint-relative prior",
+                  "requested_height_over_sqrt_area": 2.081069752573967,
+                  "effective_height_over_sqrt_area": 1.8164103867972012,
+                  "maximum_height_over_minimum_footprint_width": 3.0,
+                  "slope_clearance_minimum_aspect_ratio": 0.6450779427186958,
+                  "mean_height_relative": 1.6035320418966983,
+                  "footprint_area_relative": 0.7793406539053441,
+                  "camera_ray_scale": 1.2877574456726846,
+                  "candidate_index": 0,
+                  "overridden_by_observed_contacts": false
+                }
+              ],
+              "slope_prior": 0.08,
+              "visible_roof_corner_rms_px": 0.445993098010273,
+              "wall_contact_fits": [
+                {
+                  "candidate_index": 0,
+                  "observed_corner_contact_count": 0,
+                  "contact_rms_px": null,
+                  "support_ids": []
+                }
+              ],
+              "observed_ground_coverage": 0.0
+            },
+            {
+              "variant": 2,
+              "volumes": 0,
+              "height_aspect_ratio_prior": 0.5,
+              "height_prior_status": "unmeasured",
+              "height_priors": [],
+              "slope_prior": -0.06,
+              "visible_roof_corner_rms_px": null,
+              "wall_contact_fits": [],
+              "observed_ground_coverage": 0.0
+            }
+          ]
         }
       ],
+      "depth_compatibility": {
+        "source_id": "hero-action:frame:3:run:hero-action-v3",
+        "selected_size": 518,
+        "reduced_quality": false,
+        "elapsed_seconds": 0.8280000000086147,
+        "failures": [],
+        "config": {
+          "max_frames": 12,
+          "inference_size": 518,
+          "max_seconds": 900,
+          "artifact_limit_bytes": 1073741824,
+          "weight_limit_bytes": 1073741824,
+          "max_gpu_bytes": 4294967296,
+          "device": "auto"
+        },
+        "runtime": {
+          "python": "3.10.4",
+          "platform": "Windows-10-10.0.26300-SP0",
+          "numpy": "1.25.1",
+          "opencv-python": "4.10.0.84",
+          "torch": "2.3.1+cu121",
+          "torchvision": "0.18.1+cu121",
+          "transformers": "4.44.2",
+          "safetensors": "0.4.5",
+          "Pillow": "10.4.0"
+        },
+        "model_runtime": {
+          "model": {
+            "id": "depth-anything/Depth-Anything-V2-Small-hf",
+            "revision": "5426e4f0f36572d16453bbda7a8389317b1bef99",
+            "license": "Apache-2.0",
+            "source": "https://huggingface.co/depth-anything/Depth-Anything-V2-Small-hf/tree/5426e4f0f36572d16453bbda7a8389317b1bef99",
+            "file_sha256": {
+              "config.json": "c56698d3643dde1f83ea2212759e6b31a22b8f827246a36dd007ee8a22b3ff75",
+              "preprocessor_config.json": "d41175c0d889477ca8fc67191e540faef14baf6275157b3fdecf78469e6bbf84",
+              "model.safetensors": "3152477ce0d8d6978d76b995120de97cb5b928701fd0f817769f59e249a16b70",
+              "README.md": "319566441daaac0c5ed83e75a8fd19bae0863f3275e23f147c06fe0906edf6fb"
+            },
+            "bytes": 99179785
+          },
+          "peak_gpu_bytes": 156143616,
+          "gpu_name": "NVIDIA GeForce GTX 1660 SUPER",
+          "cuda_version": "12.1",
+          "device": "cuda",
+          "precision": "float32",
+          "batch_size": 1,
+          "local_files_only": true,
+          "trust_remote_code": false,
+          "last_model_input_shape": [
+            210,
+            518
+          ],
+          "requested_inference_size": 518,
+          "resize_policy": "long-edge-ceiling; rounded-down-14-pixel-patches"
+        },
+        "model": {
+          "id": "depth-anything/Depth-Anything-V2-Small-hf",
+          "revision": "5426e4f0f36572d16453bbda7a8389317b1bef99",
+          "license": "Apache-2.0"
+        },
+        "limitations": [
+          "Per-frame ordinal depth only; no calibrated cross-frame distance."
+        ]
+      },
+      "region_runs": [
+        {
+          "status": "completed",
+          "source_id": "hero-action:frame:3:run:hero-action-v3",
+          "input_shape": [
+            268,
+            640,
+            3
+          ],
+          "input_sha256": "95506654d7fdf7bd68a032ae1cf1ff02f4397919c04381df500c9b2e464018c5",
+          "config": {
+            "device": "auto",
+            "max_seconds": 900,
+            "max_regions": 64,
+            "artifact_limit_bytes": 1073741824,
+            "weight_limit_bytes": 1073741824,
+            "max_gpu_bytes": 4294967296,
+            "score_threshold": 0.88,
+            "stability_threshold": 0.95
+          },
+          "runtime": {
+            "python": "3.10.4",
+            "platform": "Windows-10-10.0.26300-SP0",
+            "numpy": "1.25.1",
+            "opencv-python": "4.10.0.84",
+            "torch": "2.3.1+cu121",
+            "torchvision": "0.18.1+cu121",
+            "transformers": "4.44.2",
+            "safetensors": "0.4.5",
+            "Pillow": "10.4.0"
+          },
+          "semantic_labels": false,
+          "assumptions": [
+            "Unlabeled SAM proposals; score is predicted mask IoU, not semantic or camera confidence.",
+            "Thresholds are fixed engineering filters, uncalibrated on anime.",
+            "External polygons omit holes and disconnected components."
+          ],
+          "count": 5,
+          "artifact": "regions/0e7963b0cb28a817245cc854/proposals.json",
+          "model_runtime": {
+            "model": {
+              "id": "facebook/sam-vit-base",
+              "revision": "70c1a07f894ebb5b307fd9eaaee97b9dfc16068f",
+              "file_sha256": {
+                "model.safetensors": "892c410e496344e527255ccdcb2cb7244a609acb5389c7c4fdba1288f861c579",
+                "config.json": "5ebd0d8643b486f3a716bf17c2a15531eb818b2b96ff0c6c5dcc88fa015161af",
+                "preprocessor_config.json": "225545a743c654e3c495ec6f545a0eaba57c8ba3fbbd8483b3cb1c0fc58db517"
+              },
+              "bytes": 374986512,
+              "source": "https://huggingface.co/facebook/sam-vit-base/tree/70c1a07f894ebb5b307fd9eaaee97b9dfc16068f",
+              "license": "Apache-2.0"
+            },
+            "peak_gpu_bytes": 2902810112,
+            "device": "cuda",
+            "precision": "float32",
+            "point_grid": [
+              32,
+              32
+            ],
+            "point_batch_size": 8,
+            "crops": 0,
+            "local_files_only": true,
+            "trust_remote_code": false,
+            "image_embeddings": 1,
+            "last_model_input_shape": [
+              1,
+              3,
+              1024,
+              1024
+            ]
+          },
+          "elapsed_seconds": 7.25,
+          "generated_bytes_before_manifest": 25803049
+        },
+        {
+          "status": "completed",
+          "source_id": "hero-action:frame:31:run:hero-action-v3",
+          "input_shape": [
+            268,
+            640,
+            3
+          ],
+          "input_sha256": "aa953e08d1a18cf94589173c9eed5bc89f80de0151c27aa9b71e8b7d44f022e6",
+          "config": {
+            "device": "auto",
+            "max_seconds": 900,
+            "max_regions": 64,
+            "artifact_limit_bytes": 1073741824,
+            "weight_limit_bytes": 1073741824,
+            "max_gpu_bytes": 4294967296,
+            "score_threshold": 0.88,
+            "stability_threshold": 0.95
+          },
+          "runtime": {
+            "python": "3.10.4",
+            "platform": "Windows-10-10.0.26300-SP0",
+            "numpy": "1.25.1",
+            "opencv-python": "4.10.0.84",
+            "torch": "2.3.1+cu121",
+            "torchvision": "0.18.1+cu121",
+            "transformers": "4.44.2",
+            "safetensors": "0.4.5",
+            "Pillow": "10.4.0"
+          },
+          "semantic_labels": false,
+          "assumptions": [
+            "Unlabeled SAM proposals; score is predicted mask IoU, not semantic or camera confidence.",
+            "Thresholds are fixed engineering filters, uncalibrated on anime.",
+            "External polygons omit holes and disconnected components."
+          ],
+          "count": 5,
+          "artifact": "regions/1a47523308f1a6a1a71563b0/proposals.json",
+          "model_runtime": {
+            "model": {
+              "id": "facebook/sam-vit-base",
+              "revision": "70c1a07f894ebb5b307fd9eaaee97b9dfc16068f",
+              "file_sha256": {
+                "model.safetensors": "892c410e496344e527255ccdcb2cb7244a609acb5389c7c4fdba1288f861c579",
+                "config.json": "5ebd0d8643b486f3a716bf17c2a15531eb818b2b96ff0c6c5dcc88fa015161af",
+                "preprocessor_config.json": "225545a743c654e3c495ec6f545a0eaba57c8ba3fbbd8483b3cb1c0fc58db517"
+              },
+              "bytes": 374986512,
+              "source": "https://huggingface.co/facebook/sam-vit-base/tree/70c1a07f894ebb5b307fd9eaaee97b9dfc16068f",
+              "license": "Apache-2.0"
+            },
+            "peak_gpu_bytes": 2902810112,
+            "device": "cuda",
+            "precision": "float32",
+            "point_grid": [
+              32,
+              32
+            ],
+            "point_batch_size": 8,
+            "crops": 0,
+            "local_files_only": true,
+            "trust_remote_code": false,
+            "image_embeddings": 1,
+            "last_model_input_shape": [
+              1,
+              3,
+              1024,
+              1024
+            ]
+          },
+          "elapsed_seconds": 6.907000000006519,
+          "generated_bytes_before_manifest": 25808676
+        },
+        {
+          "status": "completed",
+          "source_id": "hero-action:frame:37:run:hero-action-v3",
+          "input_shape": [
+            268,
+            640,
+            3
+          ],
+          "input_sha256": "a0200dd477b68d682eced5829e5320f4ccb4bdc1198162642e88260540181ca0",
+          "config": {
+            "device": "auto",
+            "max_seconds": 900,
+            "max_regions": 64,
+            "artifact_limit_bytes": 1073741824,
+            "weight_limit_bytes": 1073741824,
+            "max_gpu_bytes": 4294967296,
+            "score_threshold": 0.88,
+            "stability_threshold": 0.95
+          },
+          "runtime": {
+            "python": "3.10.4",
+            "platform": "Windows-10-10.0.26300-SP0",
+            "numpy": "1.25.1",
+            "opencv-python": "4.10.0.84",
+            "torch": "2.3.1+cu121",
+            "torchvision": "0.18.1+cu121",
+            "transformers": "4.44.2",
+            "safetensors": "0.4.5",
+            "Pillow": "10.4.0"
+          },
+          "semantic_labels": false,
+          "assumptions": [
+            "Unlabeled SAM proposals; score is predicted mask IoU, not semantic or camera confidence.",
+            "Thresholds are fixed engineering filters, uncalibrated on anime.",
+            "External polygons omit holes and disconnected components."
+          ],
+          "count": 0,
+          "artifact": "regions/d94de7bb0957df7880372669/proposals.json",
+          "model_runtime": {
+            "model": {
+              "id": "facebook/sam-vit-base",
+              "revision": "70c1a07f894ebb5b307fd9eaaee97b9dfc16068f",
+              "file_sha256": {
+                "model.safetensors": "892c410e496344e527255ccdcb2cb7244a609acb5389c7c4fdba1288f861c579",
+                "config.json": "5ebd0d8643b486f3a716bf17c2a15531eb818b2b96ff0c6c5dcc88fa015161af",
+                "preprocessor_config.json": "225545a743c654e3c495ec6f545a0eaba57c8ba3fbbd8483b3cb1c0fc58db517"
+              },
+              "bytes": 374986512,
+              "source": "https://huggingface.co/facebook/sam-vit-base/tree/70c1a07f894ebb5b307fd9eaaee97b9dfc16068f",
+              "license": "Apache-2.0"
+            },
+            "peak_gpu_bytes": 2902810112,
+            "device": "cuda",
+            "precision": "float32",
+            "point_grid": [
+              32,
+              32
+            ],
+            "point_batch_size": 8,
+            "crops": 0,
+            "local_files_only": true,
+            "trust_remote_code": false,
+            "image_embeddings": 1,
+            "last_model_input_shape": [
+              1,
+              3,
+              1024,
+              1024
+            ]
+          },
+          "elapsed_seconds": 7.437000000005355,
+          "generated_bytes_before_manifest": 25811098
+        },
+        {
+          "status": "completed",
+          "source_id": "hero-action:frame:93:run:hero-action-v3",
+          "input_shape": [
+            268,
+            640,
+            3
+          ],
+          "input_sha256": "70dcedc3fbb54425e602a0301fd3aae3e347bfed9e0ebd2a39dd51dd527fc2a7",
+          "config": {
+            "device": "auto",
+            "max_seconds": 900,
+            "max_regions": 64,
+            "artifact_limit_bytes": 1073741824,
+            "weight_limit_bytes": 1073741824,
+            "max_gpu_bytes": 4294967296,
+            "score_threshold": 0.88,
+            "stability_threshold": 0.95
+          },
+          "runtime": {
+            "python": "3.10.4",
+            "platform": "Windows-10-10.0.26300-SP0",
+            "numpy": "1.25.1",
+            "opencv-python": "4.10.0.84",
+            "torch": "2.3.1+cu121",
+            "torchvision": "0.18.1+cu121",
+            "transformers": "4.44.2",
+            "safetensors": "0.4.5",
+            "Pillow": "10.4.0"
+          },
+          "semantic_labels": false,
+          "assumptions": [
+            "Unlabeled SAM proposals; score is predicted mask IoU, not semantic or camera confidence.",
+            "Thresholds are fixed engineering filters, uncalibrated on anime.",
+            "External polygons omit holes and disconnected components."
+          ],
+          "count": 1,
+          "artifact": "regions/de3ad827edd01f282cba1ff4/proposals.json",
+          "model_runtime": {
+            "model": {
+              "id": "facebook/sam-vit-base",
+              "revision": "70c1a07f894ebb5b307fd9eaaee97b9dfc16068f",
+              "file_sha256": {
+                "model.safetensors": "892c410e496344e527255ccdcb2cb7244a609acb5389c7c4fdba1288f861c579",
+                "config.json": "5ebd0d8643b486f3a716bf17c2a15531eb818b2b96ff0c6c5dcc88fa015161af",
+                "preprocessor_config.json": "225545a743c654e3c495ec6f545a0eaba57c8ba3fbbd8483b3cb1c0fc58db517"
+              },
+              "bytes": 374986512,
+              "source": "https://huggingface.co/facebook/sam-vit-base/tree/70c1a07f894ebb5b307fd9eaaee97b9dfc16068f",
+              "license": "Apache-2.0"
+            },
+            "peak_gpu_bytes": 2902810112,
+            "device": "cuda",
+            "precision": "float32",
+            "point_grid": [
+              32,
+              32
+            ],
+            "point_batch_size": 8,
+            "crops": 0,
+            "local_files_only": true,
+            "trust_remote_code": false,
+            "image_embeddings": 1,
+            "last_model_input_shape": [
+              1,
+              3,
+              1024,
+              1024
+            ]
+          },
+          "elapsed_seconds": 7.187000000005355,
+          "generated_bytes_before_manifest": 25814054
+        },
+        {
+          "status": "completed",
+          "source_id": "hero-action:frame:100:run:hero-action-v3",
+          "input_shape": [
+            268,
+            640,
+            3
+          ],
+          "input_sha256": "bd7490d2a9c9b9682a5c0e44427eb3941da107fc69f840f98f07727bae9d8fa9",
+          "config": {
+            "device": "auto",
+            "max_seconds": 900,
+            "max_regions": 64,
+            "artifact_limit_bytes": 1073741824,
+            "weight_limit_bytes": 1073741824,
+            "max_gpu_bytes": 4294967296,
+            "score_threshold": 0.88,
+            "stability_threshold": 0.95
+          },
+          "runtime": {
+            "python": "3.10.4",
+            "platform": "Windows-10-10.0.26300-SP0",
+            "numpy": "1.25.1",
+            "opencv-python": "4.10.0.84",
+            "torch": "2.3.1+cu121",
+            "torchvision": "0.18.1+cu121",
+            "transformers": "4.44.2",
+            "safetensors": "0.4.5",
+            "Pillow": "10.4.0"
+          },
+          "semantic_labels": false,
+          "assumptions": [
+            "Unlabeled SAM proposals; score is predicted mask IoU, not semantic or camera confidence.",
+            "Thresholds are fixed engineering filters, uncalibrated on anime.",
+            "External polygons omit holes and disconnected components."
+          ],
+          "count": 12,
+          "artifact": "regions/af099e3bfa7dd5d8c5a4df39/proposals.json",
+          "model_runtime": {
+            "model": {
+              "id": "facebook/sam-vit-base",
+              "revision": "70c1a07f894ebb5b307fd9eaaee97b9dfc16068f",
+              "file_sha256": {
+                "model.safetensors": "892c410e496344e527255ccdcb2cb7244a609acb5389c7c4fdba1288f861c579",
+                "config.json": "5ebd0d8643b486f3a716bf17c2a15531eb818b2b96ff0c6c5dcc88fa015161af",
+                "preprocessor_config.json": "225545a743c654e3c495ec6f545a0eaba57c8ba3fbbd8483b3cb1c0fc58db517"
+              },
+              "bytes": 374986512,
+              "source": "https://huggingface.co/facebook/sam-vit-base/tree/70c1a07f894ebb5b307fd9eaaee97b9dfc16068f",
+              "license": "Apache-2.0"
+            },
+            "peak_gpu_bytes": 2902810112,
+            "device": "cuda",
+            "precision": "float32",
+            "point_grid": [
+              32,
+              32
+            ],
+            "point_batch_size": 8,
+            "crops": 0,
+            "local_files_only": true,
+            "trust_remote_code": false,
+            "image_embeddings": 1,
+            "last_model_input_shape": [
+              1,
+              3,
+              1024,
+              1024
+            ]
+          },
+          "elapsed_seconds": 6.98399999999674,
+          "generated_bytes_before_manifest": 25824878
+        },
+        {
+          "status": "completed",
+          "source_id": "hero-action:frame:159:run:hero-action-v3",
+          "input_shape": [
+            268,
+            640,
+            3
+          ],
+          "input_sha256": "5206550afc50003c29099b42d66bbc60e822f867bf426920ab3625a6b25d22a2",
+          "config": {
+            "device": "auto",
+            "max_seconds": 900,
+            "max_regions": 64,
+            "artifact_limit_bytes": 1073741824,
+            "weight_limit_bytes": 1073741824,
+            "max_gpu_bytes": 4294967296,
+            "score_threshold": 0.88,
+            "stability_threshold": 0.95
+          },
+          "runtime": {
+            "python": "3.10.4",
+            "platform": "Windows-10-10.0.26300-SP0",
+            "numpy": "1.25.1",
+            "opencv-python": "4.10.0.84",
+            "torch": "2.3.1+cu121",
+            "torchvision": "0.18.1+cu121",
+            "transformers": "4.44.2",
+            "safetensors": "0.4.5",
+            "Pillow": "10.4.0"
+          },
+          "semantic_labels": false,
+          "assumptions": [
+            "Unlabeled SAM proposals; score is predicted mask IoU, not semantic or camera confidence.",
+            "Thresholds are fixed engineering filters, uncalibrated on anime.",
+            "External polygons omit holes and disconnected components."
+          ],
+          "count": 1,
+          "artifact": "regions/fbd8b9e5c96c61418aa68d29/proposals.json",
+          "model_runtime": {
+            "model": {
+              "id": "facebook/sam-vit-base",
+              "revision": "70c1a07f894ebb5b307fd9eaaee97b9dfc16068f",
+              "file_sha256": {
+                "model.safetensors": "892c410e496344e527255ccdcb2cb7244a609acb5389c7c4fdba1288f861c579",
+                "config.json": "5ebd0d8643b486f3a716bf17c2a15531eb818b2b96ff0c6c5dcc88fa015161af",
+                "preprocessor_config.json": "225545a743c654e3c495ec6f545a0eaba57c8ba3fbbd8483b3cb1c0fc58db517"
+              },
+              "bytes": 374986512,
+              "source": "https://huggingface.co/facebook/sam-vit-base/tree/70c1a07f894ebb5b307fd9eaaee97b9dfc16068f",
+              "license": "Apache-2.0"
+            },
+            "peak_gpu_bytes": 2902810112,
+            "device": "cuda",
+            "precision": "float32",
+            "point_grid": [
+              32,
+              32
+            ],
+            "point_batch_size": 8,
+            "crops": 0,
+            "local_files_only": true,
+            "trust_remote_code": false,
+            "image_embeddings": 1,
+            "last_model_input_shape": [
+              1,
+              3,
+              1024,
+              1024
+            ]
+          },
+          "elapsed_seconds": 6.7810000000026776,
+          "generated_bytes_before_manifest": 25827502
+        }
+      ],
+      "tracking": {
+        "sample_fps": 23.976,
+        "max_samples": 1440,
+        "timestamp_fallback_frames": 0,
+        "resets": [
+          {
+            "timestamp_us": 0,
+            "shot_id": "hero-action:shot:0:run:hero-action-v3",
+            "reason": "shot-boundary"
+          },
+          {
+            "timestamp_us": 1335000,
+            "shot_id": "hero-action:shot:0:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 1376000,
+            "shot_id": "hero-action:shot:0:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 1543000,
+            "shot_id": "hero-action:shot:1:run:hero-action-v3",
+            "reason": "shot-boundary"
+          },
+          {
+            "timestamp_us": 2920000,
+            "shot_id": "hero-action:shot:1:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 2961000,
+            "shot_id": "hero-action:shot:1:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 3003000,
+            "shot_id": "hero-action:shot:1:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 3045000,
+            "shot_id": "hero-action:shot:1:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 3086000,
+            "shot_id": "hero-action:shot:1:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 3128000,
+            "shot_id": "hero-action:shot:1:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 3170000,
+            "shot_id": "hero-action:shot:1:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 3212000,
+            "shot_id": "hero-action:shot:1:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 3921000,
+            "shot_id": "hero-action:shot:1:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 3962000,
+            "shot_id": "hero-action:shot:1:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 4004000,
+            "shot_id": "hero-action:shot:1:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 4046000,
+            "shot_id": "hero-action:shot:1:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 4087000,
+            "shot_id": "hero-action:shot:1:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 4129000,
+            "shot_id": "hero-action:shot:1:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 4171000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "shot-boundary"
+          },
+          {
+            "timestamp_us": 4254000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 4296000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 4338000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 4379000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 4421000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 4463000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 4505000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 4546000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 4588000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 4630000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 4671000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 4713000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 4755000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 4796000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 4880000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 4922000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 4963000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 5005000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 5047000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 5088000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 5130000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 5172000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 5214000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 5255000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 5297000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 5339000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 5380000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 5422000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 5464000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 5506000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 5547000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 5589000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 5631000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 5672000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 5714000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 5756000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 5797000,
+            "shot_id": "hero-action:shot:2:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 6632000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "shot-boundary"
+          },
+          {
+            "timestamp_us": 6715000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 6757000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 6798000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 6840000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 6882000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 6924000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7007000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7049000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7090000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7132000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7174000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7216000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7257000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7299000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7341000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7382000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7424000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7466000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7508000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7549000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7591000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7633000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7674000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7716000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7758000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7799000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7841000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7883000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7925000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          },
+          {
+            "timestamp_us": 7966000,
+            "shot_id": "hero-action:shot:3:run:hero-action-v3",
+            "reason": "transition-window"
+          }
+        ],
+        "competing_motion_rejections": 2,
+        "fallback_matches": 1,
+        "limitations": [
+          "Warps are relative to each shot anchor, with no absolute pose or travel.",
+          "Optical flow/ORB cannot identify semantic background or prove static support.",
+          "Decoder PTS support controls timestamp fidelity; nominal FPS fallback is explicit."
+        ],
+        "decoded_frames": 192,
+        "samples": 120
+      },
+      "covered_shots": [
+        "hero-action:shot:0:run:hero-action-v3",
+        "hero-action:shot:1:run:hero-action-v3",
+        "hero-action:shot:2:run:hero-action-v3",
+        "hero-action:shot:3:run:hero-action-v3"
+      ],
       "limitations": [
-        "Each mesh is a single-view 2.5D depth hypothesis, not a recovered closed environment.",
-        "Cross-frame cameras, static object identities and hidden geometry remain unresolved."
+        "Independent fragment gauges; automatic location proposals do not align shots.",
+        "Hidden ground/volume dimensions remain priors."
       ]
     },
     "temporal": {
@@ -1051,7 +3594,7 @@
     }
   },
   {
-    "id": "dc5183963a0f4bdaa555495e52dae90d",
+    "id": "944960c617414f8ab51aa210ee106835",
     "source_clip_id": "hero-courtyard",
     "excerpt_frame_index": 0,
     "source_sha256": "986d84723580760cb1dfa73fbca602a0715c491aee9b6f203523514dcf2c9ce3",
@@ -1059,29 +3602,510 @@
     "changes": "First decoded frame of resized, re-encoded excerpt saved as PNG",
     "independent_evidence": false,
     "geometry": {
-      "valid_depth_pixels": 171520,
-      "invalid_depth_pixels": 0,
-      "sampled_vertices": 980,
-      "vertex_count": 972,
-      "triangle_count": 1780,
-      "rejected_cells": 22,
-      "source_reprojection_max_px": 5.684341886080802e-14,
-      "plane_fits": [],
-      "ransac_seed": 0,
-      "ransac_iterations_per_tile": 48,
-      "storage_quantization_decimals": 6
+      "candidate_count": 7,
+      "candidates": [
+        {
+          "pixels": [
+            [
+              309.0,
+              180.0
+            ],
+            [
+              354.0,
+              207.0
+            ],
+            [
+              383.0,
+              193.0
+            ],
+            [
+              339.0,
+              168.0
+            ]
+          ],
+          "origin": "region boundary",
+          "support_ids": [
+            "944960c617414f8ab51aa210ee106835:perspective:3b1c7efe801f981d642c2979:run:hero-still-v3",
+            "944960c617414f8ab51aa210ee106835:perspective:70e611fbb8e01ae8e4d38487:run:hero-still-v3",
+            "944960c617414f8ab51aa210ee106835:perspective:abb86305d58b341f2ec84770:run:hero-still-v3",
+            "944960c617414f8ab51aa210ee106835:perspective:894c1b9b948c0a69075aa69c:run:hero-still-v3"
+          ]
+        },
+        {
+          "pixels": [
+            [
+              163.0,
+              253.0
+            ],
+            [
+              144.0,
+              243.0
+            ],
+            [
+              103.0,
+              267.0
+            ],
+            [
+              154.0,
+              267.0
+            ]
+          ],
+          "origin": "region boundary",
+          "support_ids": [
+            "944960c617414f8ab51aa210ee106835:perspective:fffe614c162ca7ce748e35c4:run:hero-still-v3",
+            "944960c617414f8ab51aa210ee106835:perspective:e178db063f775c55433ca2ae:run:hero-still-v3"
+          ]
+        },
+        {
+          "pixels": [
+            [
+              400.0,
+              102.0
+            ],
+            [
+              424.0,
+              116.0
+            ],
+            [
+              460.0,
+              113.0
+            ],
+            [
+              414.0,
+              88.0
+            ]
+          ],
+          "origin": "original-image color-region boundary",
+          "support_ids": []
+        },
+        {
+          "pixels": [
+            [
+              360.0,
+              163.0
+            ],
+            [
+              396.0,
+              179.0
+            ],
+            [
+              416.0,
+              171.0
+            ],
+            [
+              383.0,
+              156.0
+            ]
+          ],
+          "origin": "original-image color-region boundary",
+          "support_ids": []
+        },
+        {
+          "pixels": [
+            [
+              264.0,
+              152.0
+            ],
+            [
+              290.0,
+              167.0
+            ],
+            [
+              314.0,
+              159.0
+            ],
+            [
+              286.0,
+              145.0
+            ]
+          ],
+          "origin": "original-image color-region boundary",
+          "support_ids": [
+            "944960c617414f8ab51aa210ee106835:perspective:dfa732ce7344f8694db0f9fa:run:hero-still-v3",
+            "944960c617414f8ab51aa210ee106835:perspective:c4910cb833d8bed9e39b3871:run:hero-still-v3",
+            "944960c617414f8ab51aa210ee106835:perspective:4b5bb6d5e5373cb21c87015a:run:hero-still-v3"
+          ]
+        },
+        {
+          "pixels": [
+            [
+              183.0,
+              201.0
+            ],
+            [
+              193.0,
+              212.0
+            ],
+            [
+              207.0,
+              206.0
+            ],
+            [
+              198.0,
+              197.0
+            ]
+          ],
+          "origin": "region boundary",
+          "support_ids": [
+            "944960c617414f8ab51aa210ee106835:perspective:ed36ba746d3cea8b49444b73:run:hero-still-v3",
+            "944960c617414f8ab51aa210ee106835:perspective:cfff166da39d4bb64a2d4887:run:hero-still-v3"
+          ]
+        },
+        {
+          "pixels": [
+            [
+              210.0,
+              70.0
+            ],
+            [
+              216.0,
+              79.0
+            ],
+            [
+              234.0,
+              83.0
+            ],
+            [
+              230.0,
+              72.0
+            ]
+          ],
+          "origin": "original-image color-region boundary",
+          "support_ids": []
+        }
+      ],
+      "depth_usage": "soft ordinal prior only; no depth sheet geometry",
+      "solver": "scipy least_squares soft_l1; max_nfev=80",
+      "calibration": {
+        "intrinsics": "prior",
+        "upright": "prior",
+        "camera_center": "fixed relative gauge",
+        "assumptions": [
+          "Centered principal point, square pixels, zero skew.",
+          "Calibration candidates conditionally share horizontal roofs with orthogonal local edges; buildings need not share yaw."
+        ],
+        "vanishing_points": [
+          [
+            [
+              -0.8541040433528753,
+              -0.5201002620275138,
+              0.0014144140769979008
+            ],
+            [
+              -0.9980939116569618,
+              0.06170338300970357,
+              -0.0011117726668415059
+            ]
+          ],
+          [
+            [
+              0.578980125597058,
+              0.8153359363629457,
+              0.0030536926455541034
+            ],
+            [
+              0.6446154430827108,
+              0.7644990250625666,
+              0.00348872722718163
+            ]
+          ],
+          [
+            [
+              -0.5528999351790925,
+              -0.8332385851771873,
+              0.0038886824085486043
+            ],
+            [
+              0.9545415649676657,
+              0.2980673993268804,
+              0.0024952369806664266
+            ]
+          ],
+          [
+            [
+              -0.9133237847532696,
+              -0.4072339289297385,
+              -0.00043741560572474594
+            ],
+            [
+              -0.9952530877471806,
+              -0.09730948242592471,
+              -0.0014683186648630614
+            ]
+          ],
+          [
+            [
+              0.8696565534786725,
+              0.4928053803045811,
+              0.02898855178262242
+            ],
+            [
+              -0.9826152343866911,
+              0.18565293311249093,
+              -0.0005381244438043215
+            ]
+          ],
+          [
+            [
+              -0.6556100681071858,
+              -0.7492686492653552,
+              0.0936585811581694
+            ],
+            [
+              -0.8446370068203518,
+              -0.5353307916425003,
+              -0.003044705071235365
+            ]
+          ],
+          [
+            [
+              -0.8838165657922095,
+              -0.46782049599777803,
+              -0.0035016504191450453
+            ],
+            [
+              0.9177443632409562,
+              0.3971227152048829,
+              0.006231597528179333
+            ]
+          ]
+        ],
+        "angular_rms_degrees": 36.42407359893281,
+        "rejection_reason": "Roof directions inconsistent, bound-limited, or insufficiently conditioned; retained explicit camera prior.",
+        "condition_ratio": 0.25156889822924366
+      },
+      "hypothesis_fits": [
+        {
+          "variant": 0,
+          "volumes": 3,
+          "height_aspect_ratio_prior": 1.0,
+          "height_prior_status": "unmeasured",
+          "height_priors": [
+            {
+              "kind": "unmeasured footprint-relative prior",
+              "requested_height_over_sqrt_area": 0.9946074604988098,
+              "effective_height_over_sqrt_area": 0.9946074604988098,
+              "maximum_height_over_minimum_footprint_width": 3.0,
+              "slope_clearance_minimum_aspect_ratio": 0.14934850098208796,
+              "mean_height_relative": 1.134780303791648,
+              "footprint_area_relative": 1.3017277206116729,
+              "camera_ray_scale": 1.3636228562144959,
+              "candidate_index": 0,
+              "overridden_by_observed_contacts": false
+            },
+            {
+              "kind": "unmeasured footprint-relative prior",
+              "requested_height_over_sqrt_area": 0.9898492097854614,
+              "effective_height_over_sqrt_area": 0.9898492097854614,
+              "maximum_height_over_minimum_footprint_width": 3.0,
+              "slope_clearance_minimum_aspect_ratio": 0.5766117431105671,
+              "mean_height_relative": 0.8992007847605228,
+              "footprint_area_relative": 0.8252305042199355,
+              "camera_ray_scale": 1.3979218340838013,
+              "candidate_index": 3,
+              "overridden_by_observed_contacts": false
+            },
+            {
+              "kind": "unmeasured footprint-relative prior",
+              "requested_height_over_sqrt_area": 0.9903550803661346,
+              "effective_height_over_sqrt_area": 0.9903550803661346,
+              "maximum_height_over_minimum_footprint_width": 3.0,
+              "slope_clearance_minimum_aspect_ratio": 0.3429245774769073,
+              "mean_height_relative": 0.996934122172795,
+              "footprint_area_relative": 1.0133303591817604,
+              "camera_ray_scale": 1.3832835185608736,
+              "candidate_index": 4,
+              "overridden_by_observed_contacts": false
+            }
+          ],
+          "slope_prior": 0.0,
+          "visible_roof_corner_rms_px": 4.7840865791509556e-14,
+          "wall_contact_fits": [
+            {
+              "candidate_index": 0,
+              "observed_corner_contact_count": 0,
+              "contact_rms_px": null,
+              "support_ids": []
+            },
+            {
+              "candidate_index": 3,
+              "observed_corner_contact_count": 0,
+              "contact_rms_px": null,
+              "support_ids": []
+            },
+            {
+              "candidate_index": 4,
+              "observed_corner_contact_count": 0,
+              "contact_rms_px": null,
+              "support_ids": []
+            }
+          ],
+          "observed_ground_coverage": 0.0
+        },
+        {
+          "variant": 1,
+          "volumes": 3,
+          "height_aspect_ratio_prior": 2.0,
+          "height_prior_status": "unmeasured",
+          "height_priors": [
+            {
+              "kind": "unmeasured footprint-relative prior",
+              "requested_height_over_sqrt_area": 1.9892149209976195,
+              "effective_height_over_sqrt_area": 1.9892149209976195,
+              "maximum_height_over_minimum_footprint_width": 3.0,
+              "slope_clearance_minimum_aspect_ratio": 0.16074115739944034,
+              "mean_height_relative": 1.9485364168837798,
+              "footprint_area_relative": 0.9595191292745806,
+              "camera_ray_scale": 1.238496791458006,
+              "candidate_index": 0,
+              "overridden_by_observed_contacts": false
+            },
+            {
+              "kind": "unmeasured footprint-relative prior",
+              "requested_height_over_sqrt_area": 1.9796984195709229,
+              "effective_height_over_sqrt_area": 1.9796984195709229,
+              "maximum_height_over_minimum_footprint_width": 3.0,
+              "slope_clearance_minimum_aspect_ratio": 0.5556600729932452,
+              "mean_height_relative": 1.5432508590700396,
+              "footprint_area_relative": 0.6076800545406981,
+              "camera_ray_scale": 1.2994160180089314,
+              "candidate_index": 3,
+              "overridden_by_observed_contacts": false
+            },
+            {
+              "kind": "unmeasured footprint-relative prior",
+              "requested_height_over_sqrt_area": 1.9807101607322692,
+              "effective_height_over_sqrt_area": 1.9591564621240047,
+              "maximum_height_over_minimum_footprint_width": 3.0,
+              "slope_clearance_minimum_aspect_ratio": 0.2917971807655481,
+              "mean_height_relative": 1.6582917716930048,
+              "footprint_area_relative": 0.7164463090108805,
+              "camera_ray_scale": 1.2825068426063047,
+              "candidate_index": 4,
+              "overridden_by_observed_contacts": false
+            }
+          ],
+          "slope_prior": 0.08,
+          "visible_roof_corner_rms_px": 0.10340303838063647,
+          "wall_contact_fits": [
+            {
+              "candidate_index": 0,
+              "observed_corner_contact_count": 0,
+              "contact_rms_px": null,
+              "support_ids": []
+            },
+            {
+              "candidate_index": 3,
+              "observed_corner_contact_count": 0,
+              "contact_rms_px": null,
+              "support_ids": []
+            },
+            {
+              "candidate_index": 4,
+              "observed_corner_contact_count": 0,
+              "contact_rms_px": null,
+              "support_ids": []
+            }
+          ],
+          "observed_ground_coverage": 0.0
+        },
+        {
+          "variant": 2,
+          "volumes": 3,
+          "height_aspect_ratio_prior": 0.5,
+          "height_prior_status": "unmeasured",
+          "height_priors": [
+            {
+              "kind": "unmeasured footprint-relative prior",
+              "requested_height_over_sqrt_area": 0.4973037302494049,
+              "effective_height_over_sqrt_area": 0.4973037302494049,
+              "maximum_height_over_minimum_footprint_width": 3.0,
+              "slope_clearance_minimum_aspect_ratio": 0.14235816627985662,
+              "mean_height_relative": 0.628443293778914,
+              "footprint_area_relative": 1.5969405861611519,
+              "camera_ray_scale": 1.4413800235846397,
+              "candidate_index": 0,
+              "overridden_by_observed_contacts": false
+            },
+            {
+              "kind": "unmeasured footprint-relative prior",
+              "requested_height_over_sqrt_area": 0.486584535241127,
+              "effective_height_over_sqrt_area": 0.8285829722708111,
+              "maximum_height_over_minimum_footprint_width": 3.0,
+              "slope_clearance_minimum_aspect_ratio": 0.8277552170537574,
+              "mean_height_relative": 1.6304692947250978,
+              "footprint_area_relative": 3.872159522688727,
+              "camera_ray_scale": 1.2341947136671994,
+              "candidate_index": 2,
+              "overridden_by_observed_contacts": false
+            },
+            {
+              "kind": "unmeasured footprint-relative prior",
+              "requested_height_over_sqrt_area": 0.4949246048927307,
+              "effective_height_over_sqrt_area": 0.5982260731661586,
+              "maximum_height_over_minimum_footprint_width": 3.0,
+              "slope_clearance_minimum_aspect_ratio": 0.5976284447214373,
+              "mean_height_relative": 0.601352745727084,
+              "footprint_area_relative": 1.0104804641374527,
+              "camera_ray_scale": 1.4430898618179195,
+              "candidate_index": 3,
+              "overridden_by_observed_contacts": false
+            },
+            {
+              "kind": "unmeasured footprint-relative prior",
+              "requested_height_over_sqrt_area": 0.4951775401830673,
+              "effective_height_over_sqrt_area": 0.4951775401830673,
+              "maximum_height_over_minimum_footprint_width": 3.0,
+              "slope_clearance_minimum_aspect_ratio": 0.4148926155362346,
+              "mean_height_relative": 0.569720860483943,
+              "footprint_area_relative": 1.323739008054122,
+              "camera_ray_scale": 1.4475015692985391,
+              "candidate_index": 4,
+              "overridden_by_observed_contacts": false
+            }
+          ],
+          "slope_prior": -0.06,
+          "visible_roof_corner_rms_px": 1.621091590586897,
+          "wall_contact_fits": [
+            {
+              "candidate_index": 0,
+              "observed_corner_contact_count": 0,
+              "contact_rms_px": null,
+              "support_ids": []
+            },
+            {
+              "candidate_index": 2,
+              "observed_corner_contact_count": 0,
+              "contact_rms_px": null,
+              "support_ids": []
+            },
+            {
+              "candidate_index": 3,
+              "observed_corner_contact_count": 0,
+              "contact_rms_px": null,
+              "support_ids": []
+            },
+            {
+              "candidate_index": 4,
+              "observed_corner_contact_count": 0,
+              "contact_rms_px": null,
+              "support_ids": []
+            }
+          ],
+          "observed_ground_coverage": 0.0
+        }
+      ]
     },
-    "elapsed_seconds": 13.031000000002678,
+    "elapsed_seconds": 23.75,
     "model": {
-      "status": "completed",
-      "source_kind": "image",
-      "source_id": "dc5183963a0f4bdaa555495e52dae90d",
-      "source_hash": "2cb2b301ef806c9cc795333e5f10edcc4c8a8b1f511a60ef4ea322a7fbc18b2f",
-      "width": 640,
-      "height": 268,
+      "source_id": "944960c617414f8ab51aa210ee106835",
+      "selected_size": 518,
+      "reduced_quality": false,
+      "elapsed_seconds": 1.0160000000032596,
+      "failures": [],
       "config": {
         "max_frames": 12,
-        "inference_size": 280,
+        "inference_size": 518,
         "max_seconds": 900,
         "artifact_limit_bytes": 1073741824,
         "weight_limit_bytes": 1073741824,
@@ -1099,11 +4123,23 @@
         "safetensors": "0.4.5",
         "Pillow": "10.4.0"
       },
+      "model_runtime": {
+        "device": "cuda",
+        "gpu_name": "NVIDIA GeForce GTX 1660 SUPER",
+        "cuda_version": "12.1",
+        "precision": "float32",
+        "batch_size": 1,
+        "peak_gpu_bytes": 156143616,
+        "last_model_input_shape": [
+          210,
+          518
+        ]
+      },
       "model": {
         "id": "depth-anything/Depth-Anything-V2-Small-hf",
         "revision": "5426e4f0f36572d16453bbda7a8389317b1bef99",
-        "source": "https://huggingface.co/depth-anything/Depth-Anything-V2-Small-hf/tree/5426e4f0f36572d16453bbda7a8389317b1bef99",
         "license": "Apache-2.0",
+        "source": "https://huggingface.co/depth-anything/Depth-Anything-V2-Small-hf/tree/5426e4f0f36572d16453bbda7a8389317b1bef99",
         "file_sha256": {
           "config.json": "c56698d3643dde1f83ea2212759e6b31a22b8f827246a36dd007ee8a22b3ff75",
           "preprocessor_config.json": "d41175c0d889477ca8fc67191e540faef14baf6275157b3fdecf78469e6bbf84",
@@ -1112,23 +4148,9 @@
         },
         "bytes": 99179785
       },
-      "convention": "higher-is-farther; ordinal relative depth in [0,1]",
-      "metric_units": false,
-      "artifact": "image-depth/relative.npy",
-      "artifact_sha256": "201e417536fab946b501c30a23f148c1ea34ef9a088119eca24be6dc3b369545",
-      "model_runtime": {
-        "device": "cuda",
-        "gpu_name": "NVIDIA GeForce GTX 1660 SUPER",
-        "cuda_version": "12.1",
-        "precision": "float32",
-        "batch_size": 1,
-        "peak_gpu_bytes": 122539520,
-        "last_model_input_shape": [
-          112,
-          280
-        ]
-      },
-      "elapsed_seconds": 0.8120000000053551
+      "limitations": [
+        "Per-frame ordinal depth only; no calibrated cross-frame distance."
+      ]
     }
   }
 ]
