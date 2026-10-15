@@ -11,13 +11,13 @@
     "bytes": 22948,
     "sha256": "0cac2c29194d4a262568432f74991a5359943395bd4fe7c7b43f0255bbbcead7"
   },
-  "assets/index-sSymSNDZ.js": {
-    "bytes": 570991,
-    "sha256": "8b67da33b41943a1cd56fa25b4ad8b98ed637becdbd2fa9c78254b06fe500ef4"
+  "assets/index-D4urgBBY.js": {
+    "bytes": 572055,
+    "sha256": "851d2e531101b9a12aeac65713c86c848a78ecd9e1fe38c81fcd3ac0e128888f"
   },
-  "assets/SceneCanvas-CWH0CcwO.js": {
+  "assets/SceneCanvas-YG4qDomF.js": {
     "bytes": 390124,
-    "sha256": "83477b58588beab0ef929ecda0c5e7332170b7dbe1fff98dbefb4c82eaf8ca37"
+    "sha256": "4bbe6ccb6dbaa177e5e666dfb86a5fe2ca1173cc8a115d9301b1808df33ee134"
   },
   "demo/ATTRIBUTION.html": {
     "bytes": 1631,
@@ -3724,8 +3724,8 @@
     "sha256": "da211033b8290ff42db7d7510a4da0f9d284c27aa9b7a193e3332a904d5f953d"
   },
   "demo/project.json": {
-    "bytes": 5155113,
-    "sha256": "3800fe586320a1600d53022aedd4f4a34a4e567fcb6f7bcda7db8eb589a1b64c"
+    "bytes": 5376421,
+    "sha256": "db4354b894265f110090428284bac85d0fcf44c37506ef9ee4718b0057352df4"
   },
   "demo/provenance.json": {
     "bytes": 332221,
@@ -3737,7 +3737,7 @@
   },
   "index.html": {
     "bytes": 486,
-    "sha256": "4c284bf5bcbda6a8b348a19d1c608048253ef000c860009c7a24cfb65297957b"
+    "sha256": "8b7052e9d5267d776d0479d41646b37679fc2ad7212261ee5c4954f4ffaf6147"
   },
   "README.md": {
     "bytes": 1037,
