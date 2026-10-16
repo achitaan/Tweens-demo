@@ -3724,8 +3724,8 @@
     "sha256": "da211033b8290ff42db7d7510a4da0f9d284c27aa9b7a193e3332a904d5f953d"
   },
   "demo/project.json": {
-    "bytes": 5767491,
-    "sha256": "6274dbd3791ee781ffa31bda393fe218f1e72ef613412690014739d83073d3bf"
+    "bytes": 6246760,
+    "sha256": "9cba81666434cb74ce1cecb97179acfbd60c91aa87fa9ca68acb53dd1ba7b0c2"
   },
   "demo/provenance.json": {
     "bytes": 332221,
